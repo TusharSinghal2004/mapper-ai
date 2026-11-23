@@ -1,0 +1,13 @@
+{
+  "meta": null,
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"successful\":true,\"data\":{\"results\":\"\",\"stdout\":\"ATLAS_CHUNK=PbkITQ==\\n\",\"stderr\":\"\",\"error\":\"\",\"sandbox_id_suffix\":\"cp4a\"},\"error\":null,\"log_id\":\"log_06tFVJC3TCA0\"}",
+      "annotations": null,
+      "meta": null
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

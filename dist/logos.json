@@ -1,0 +1,701 @@
+{
+  "1": {
+    "path": "assets/logos/1.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/salesforce",
+    "domain": "salesforce.com",
+    "sha256": "b8d14f2b18d4984abeaec61a49b2bf4fbf63bbf39879d55035ce6f55d0c76c39"
+  },
+  "2": {
+    "path": "assets/logos/2.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/hubspot",
+    "domain": "hubspot.com",
+    "sha256": "14ecd8400dd658af99222112ad0c6e675c38dc249290e484a690a4dc35cd793d"
+  },
+  "3": {
+    "path": "assets/logos/3.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/pipedrive",
+    "domain": "pipedrive.com",
+    "sha256": "7553aefc85296fb359b888566bfaa6250d098eba65fc0ddf373c1978488e1249"
+  },
+  "4": {
+    "path": "assets/logos/4.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/attio",
+    "domain": "attio.com",
+    "sha256": "b1312e668abcfebf00e169461b906e04c8cc7be0dc0510ffa2d178ec243eb29f"
+  },
+  "5": {
+    "path": "assets/logos/5.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/twenty",
+    "domain": "twenty.com",
+    "sha256": "d6ec87562ec5d966708849ad6892c4b5ad6ba44afc915a238949599520cdda51"
+  },
+  "6": {
+    "path": "assets/logos/6.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/podio",
+    "domain": "podio.com",
+    "sha256": "ed799a90fd193bbf008abf8e213b84e8fcc1cafa91d87fbcda7a87bb8b457ab2"
+  },
+  "7": {
+    "path": "assets/logos/7.png",
+    "kind": "site-icon",
+    "source": "https://www.google.com/s2/favicons?domain=zoho.com&sz=128",
+    "domain": "zoho.com",
+    "sha256": "9bef7c03e9c553e9c0b5a5249f9133ab3987a029b16ddba4938f37558a482188"
+  },
+  "8": {
+    "path": "assets/logos/8.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/close",
+    "domain": "close.com",
+    "sha256": "a6c774434dbced600e0a8a7f57fda02d8bc1aac90ab4027bdac6535fa4c53ca1"
+  },
+  "9": {
+    "path": "assets/logos/9.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/copper",
+    "domain": "copper.com",
+    "sha256": "80cfda75b1599f696cdac61d0cd07f721b4b19058b42bc68b0a581b31fce82df"
+  },
+  "10": {
+    "path": "assets/logos/10.png",
+    "kind": "site-icon",
+    "source": "https://www.google.com/s2/favicons?domain=dealcloud.com&sz=128",
+    "domain": "dealcloud.com",
+    "sha256": "5fb2dd4070847e7e636b59484f0ca0d06f7954ccda27bfdff43863fb2dc47fff"
+  },
+  "11": {
+    "path": "assets/logos/11.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/zendesk",
+    "domain": "zendesk.com",
+    "sha256": "8b7061e008f84b7c6bb1aa1e88d20b65c1a8a1d7241c56820e6109baa9e2abc8"
+  },
+  "12": {
+    "path": "assets/logos/12.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/intercom",
+    "domain": "intercom.com",
+    "sha256": "0bb278f014a634dc4ec316f755efbb1d469e156b5e9c4f8089e97512ecb914a1"
+  },
+  "13": {
+    "path": "assets/logos/13.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/freshdesk",
+    "domain": "freshdesk.com",
+    "sha256": "9494edfca63c9f824293ac10ea2550ffd63df3531af7e263296d76179de078aa"
+  },
+  "14": {
+    "path": "assets/logos/14.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/front",
+    "domain": "front.com",
+    "sha256": "4de218f76f23317408b718d1046fa062f2f93673d70e32ac234a2d3d455f17fc"
+  },
+  "15": {
+    "path": "assets/logos/15.png",
+    "kind": "site-icon",
+    "source": "https://www.google.com/s2/favicons?domain=usepylon.com&sz=128",
+    "domain": "usepylon.com",
+    "sha256": "0f5a5a4b684b9cf5d29fde55728ca6521930720b41b4b6f2fe5d2a6d51354448"
+  },
+  "16": {
+    "path": "assets/logos/16.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/liveagent",
+    "domain": "liveagent.com",
+    "sha256": "b5b86e86afbacb2b041d339f0053130ba99d5e851dfcecee4d49f9c26b81a133"
+  },
+  "17": {
+    "path": "assets/logos/17.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/plain",
+    "domain": "plain.com",
+    "sha256": "a8a3362c425fb3c33b25761f419378d0bc6e0297faa30f6befa1e61439ae7919"
+  },
+  "18": {
+    "path": "assets/logos/18.png",
+    "kind": "site-icon",
+    "source": "https://www.google.com/s2/favicons?domain=helpscout.com&sz=128",
+    "domain": "helpscout.com",
+    "sha256": "d1e3f5b220e3e680f0c08041aab7363a606bb1a05d318b26227a44d9712997eb"
+  },
+  "19": {
+    "path": "assets/logos/19.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/gorgias",
+    "domain": "gorgias.com",
+    "sha256": "2b13b2ef00b49bf8acd341c715ebf4a20808f7f528fbfb738e41f93bae054a29"
+  },
+  "20": {
+    "path": "assets/logos/20.png",
+    "kind": "site-icon",
+    "source": "https://www.google.com/s2/favicons?domain=gladly.com&sz=128",
+    "domain": "gladly.com",
+    "sha256": "f079524adc1bf39cb7586673e30204e4df599fe9c7ce214fa8242075d9420617"
+  },
+  "21": {
+    "path": "assets/logos/21.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/slack",
+    "domain": "slack.com",
+    "sha256": "e830e224a020d33dd2d70cb2234d1a0184fdb49ec1c01735f001396ece25f417"
+  },
+  "22": {
+    "path": "assets/logos/22.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/twilio",
+    "domain": "twilio.com",
+    "sha256": "b258842a4ec10f20aff78dda8980cec21bdb09e74661f5d25415726193746e36"
+  },
+  "23": {
+    "path": "assets/logos/23.png",
+    "kind": "site-icon",
+    "source": "https://www.google.com/s2/favicons?domain=zoho.com&sz=128",
+    "domain": "zoho.com",
+    "sha256": "9bef7c03e9c553e9c0b5a5249f9133ab3987a029b16ddba4938f37558a482188"
+  },
+  "24": {
+    "path": "assets/logos/24.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/lark",
+    "domain": "larksuite.com",
+    "sha256": "22d6596cbead436b229801600a22975d2d6863643c688aac303b072f94e1efc0"
+  },
+  "25": {
+    "path": "assets/logos/25.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/pumble",
+    "domain": "pumble.com",
+    "sha256": "72771e798679beec5cbcc075a8eaea4c479834b532295bfb16d4f6795bcb3827"
+  },
+  "26": {
+    "path": "assets/logos/26.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/discord",
+    "domain": "discord.com",
+    "sha256": "4c20518e5727daa79a04c351c3bf3e163754e02cbc00523b404512683cc5e23a"
+  },
+  "27": {
+    "path": "assets/logos/27.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/telegram",
+    "domain": "telegram.org",
+    "sha256": "776401536106164c7673526f91df9ace38d32e7dceb80a94d1f3af0d3e295d3a"
+  },
+  "28": {
+    "path": "assets/logos/28.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/whatsapp",
+    "domain": "whatsapp.com",
+    "sha256": "e4f48bfae01494a82c69abd17fffaea0df60dffc7cfd877bf9437f84ccecfdb6"
+  },
+  "29": {
+    "path": "assets/logos/29.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/aircall",
+    "domain": "aircall.io",
+    "sha256": "c89f57733132a8c8c7b9a3de7291c495c53dcba9a06fed04e306682a007c37c3"
+  },
+  "30": {
+    "path": "assets/logos/30.png",
+    "kind": "site-icon",
+    "source": "https://www.google.com/s2/favicons?domain=vonage.com&sz=128",
+    "domain": "vonage.com",
+    "sha256": "c397448bed6df5b00562ccbdca7670fcc3703346ff2f03d7359fca0bb7bcb9a9"
+  },
+  "31": {
+    "path": "assets/logos/31.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/googleads",
+    "domain": "ads.google.com",
+    "sha256": "667211fbddd1c23102c59da1853b06886fe6bf2e197b0109a157fe61300d1e69"
+  },
+  "32": {
+    "path": "assets/logos/32.png",
+    "kind": "site-icon",
+    "source": "https://www.google.com/s2/favicons?domain=facebook.com&sz=128",
+    "domain": "facebook.com",
+    "sha256": "b095ae2d9ff0b3ab69866794f9f0c3ababfb5b4232a36ddab4cdd3e7cc7e7753"
+  },
+  "33": {
+    "path": "assets/logos/33.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/linkedin_ads",
+    "domain": "linkedin.com",
+    "sha256": "8dea8f2583274f5561dcae4db69872b577189f7da8a98c75ed7c869ecae2e02f"
+  },
+  "34": {
+    "path": "assets/logos/34.png",
+    "kind": "site-icon",
+    "source": "https://www.google.com/s2/favicons?domain=gohighlevel.com&sz=128",
+    "domain": "gohighlevel.com",
+    "sha256": "6e9f51d91507724c0b0e92fee77b36139f2a9a444459fbbf673b043380c138ee"
+  },
+  "35": {
+    "path": "assets/logos/35.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/mailchimp",
+    "domain": "mailchimp.com",
+    "sha256": "e06abba45c05e39d1b6bafb0937a7064cd7a1ab06cb086b868fc8c73984a7893"
+  },
+  "36": {
+    "path": "assets/logos/36.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/klaviyo",
+    "domain": "klaviyo.com",
+    "sha256": "655fc42ba08b624ac572e7abde18bb655c0485b64d675a2c68cf799f48f06ff1"
+  },
+  "37": {
+    "path": "assets/logos/37.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/systeme_io",
+    "domain": "systeme.io",
+    "sha256": "72d3fec297697aea5aa86961e23dc489ccc0ac2b71331b76022a6f7104ed9a3d"
+  },
+  "38": {
+    "path": "assets/logos/38.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/pinterest",
+    "domain": "pinterest.com",
+    "sha256": "04417ffd313e7ebbc2357cfbe11c82fd2cb409bd0c2098ef8a7f5ac45ea5d2b2"
+  },
+  "39": {
+    "path": "assets/logos/39.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/threads",
+    "domain": "threads.com",
+    "sha256": "89c7092bdc020eea1e11ac380a567aaf291040b5b5f53dd6aa02c8918e3cd96b"
+  },
+  "40": {
+    "path": "assets/logos/40.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/sendgrid",
+    "domain": "sendgrid.com",
+    "sha256": "7f289c0b8d12acdd616b74dcbe726113ea40234b95f509a5ef5980889950f3f0"
+  },
+  "41": {
+    "path": "assets/logos/41.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/shopify",
+    "domain": "shopify.com",
+    "sha256": "5742f66b2b0f0eb4d5bcaa958ce4517d569f8699196bc08639db1bc1c4980481"
+  },
+  "42": {
+    "path": "assets/logos/42.png",
+    "kind": "site-icon",
+    "source": "https://www.google.com/s2/favicons?domain=woocommerce.com&sz=128",
+    "domain": "woocommerce.com",
+    "sha256": "e313edc514efe87ff55bb7cf68a93a3ca38e7bcf4d7dc5a54dcd2991797a9c46"
+  },
+  "43": {
+    "path": "assets/logos/43.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/bigcommerce",
+    "domain": "bigcommerce.com",
+    "sha256": "d60ff993719e032d301f01df59f93febf1bbdbedfe73899f04038878947e87e9"
+  },
+  "44": {
+    "path": "assets/logos/44.png",
+    "kind": "site-icon",
+    "source": "https://www.google.com/s2/favicons?domain=salesforce.com&sz=128",
+    "domain": "salesforce.com",
+    "sha256": "abcc0840c906aef643ba63da8d2d3f1487a8324ccc6ea7f122dd06168099e586"
+  },
+  "45": {
+    "path": "assets/logos/45.png",
+    "kind": "site-icon",
+    "source": "https://www.google.com/s2/favicons?domain=business.adobe.com&sz=128",
+    "domain": "business.adobe.com",
+    "sha256": "b490f3a28f0cb7a0af7c435a683ce6887e2f0a99354943c0892fa394b30835be"
+  },
+  "46": {
+    "path": "assets/logos/46.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/squarespace",
+    "domain": "squarespace.com",
+    "sha256": "72b5c8e75cd954d739e71823707690b2093d5066fdc5150e6c6f597672690b12"
+  },
+  "47": {
+    "path": "assets/logos/47.png",
+    "kind": "site-icon",
+    "source": "https://www.google.com/s2/favicons?domain=ecwid.com&sz=128",
+    "domain": "ecwid.com",
+    "sha256": "34d0043329ebd6303e0eb42c14ea87343fdc447ce4dc4b60f1d52f946f121d5d"
+  },
+  "48": {
+    "path": "assets/logos/48.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/gumroad",
+    "domain": "gumroad.com",
+    "sha256": "69f40bdf04b7b08a57ad9a1e4256278dc553dc099d9bc7992a8999fe158fe323"
+  },
+  "49": {
+    "path": "assets/logos/49.png",
+    "kind": "site-icon",
+    "source": "https://www.google.com/s2/favicons?domain=sell.amazon.com&sz=128",
+    "domain": "sell.amazon.com",
+    "sha256": "fff932b3cf60c6d3bba02b44e0e894d6307945681e5ec84105399719f9937b2a"
+  },
+  "50": {
+    "path": "assets/logos/50.png",
+    "kind": "site-icon",
+    "source": "https://www.google.com/s2/favicons?domain=fanbasis.com&sz=128",
+    "domain": "fanbasis.com",
+    "sha256": "4464573310ea7a657d675e18d0917e6d79e013b2691443c31b11a4a5a3ef6ccb"
+  },
+  "51": {
+    "path": "assets/logos/51.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/dataforseo",
+    "domain": "dataforseo.com",
+    "sha256": "81ecb658e0dfea610db3bb33e53233e74bc4f54a825425e3814c32283b41f47b"
+  },
+  "52": {
+    "path": "assets/logos/52.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/se_ranking",
+    "domain": "seranking.com",
+    "sha256": "6e55b1fe45429b094d50bcb81164d0f997eab59c4d2201839fcb16a701cca98e"
+  },
+  "53": {
+    "path": "assets/logos/53.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/ahrefs",
+    "domain": "ahrefs.com",
+    "sha256": "118d1c71b971e96ad942c903f2f55335b728af0f193616132dc4fe72d8c84531"
+  },
+  "54": {
+    "path": "assets/logos/54.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/mrscraper",
+    "domain": "mrscraper.com",
+    "sha256": "e359fee380191f30c86bcc7d22a62e9e259f90a067ae3445b0de3604cf8a1de6"
+  },
+  "55": {
+    "path": "assets/logos/55.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/apify",
+    "domain": "apify.com",
+    "sha256": "3060f59b4aa6950101606e01841d82451779ae99fc7fa554d0ec8798ae1c2130"
+  },
+  "56": {
+    "path": "assets/logos/56.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/firecrawl",
+    "domain": "firecrawl.dev",
+    "sha256": "75e27b42873322da5e88e7f0dede256c16dbeefac61fcd2faaba41dc1082401c"
+  },
+  "57": {
+    "path": "assets/logos/57.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/brightdata",
+    "domain": "brightdata.com",
+    "sha256": "625e86b6859f1680133e0c5a1ba5c87584ef4c7d91897464965a6625c5c310b0"
+  },
+  "58": {
+    "path": "assets/logos/58.png",
+    "kind": "site-icon",
+    "source": "https://www.google.com/s2/favicons?domain=sherlockproject.xyz&sz=128",
+    "domain": "sherlockproject.xyz",
+    "sha256": "204e45b94bfbba80ad3bc9a8a0461af7d3e6478226436d7eaf80572bcbe83295"
+  },
+  "59": {
+    "path": "assets/logos/59.png",
+    "kind": "site-icon",
+    "source": "https://www.google.com/s2/favicons?domain=waterfall.io&sz=128",
+    "domain": "waterfall.io",
+    "sha256": "87f8b1fdf5981c4f27edb4386ff4dc1224955a42c9d2ced0d0d28011c9f91bca"
+  },
+  "60": {
+    "path": "assets/logos/60.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/clay",
+    "domain": "clay.com",
+    "sha256": "14267a67f05b344660405fdc637eb395370a1e34da795f212b50350a4c9f842f"
+  },
+  "61": {
+    "path": "assets/logos/61.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/github",
+    "domain": "github.com",
+    "sha256": "2c1726d5c67c36eb69bf3ce012ecc3846766df1405efa7a83c2c7158e4422a13"
+  },
+  "62": {
+    "path": "assets/logos/62.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/vercel",
+    "domain": "vercel.com",
+    "sha256": "8b2f2f20e4b2bf945481646ceea9300cf6d5a1713f705321c2251a84063897ff"
+  },
+  "63": {
+    "path": "assets/logos/63.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/netlify",
+    "domain": "netlify.com",
+    "sha256": "5922b95571d4d674bafbd9f04c455ca704a00b60f2a3965216ff4dcfa859fe8c"
+  },
+  "64": {
+    "path": "assets/logos/64.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/cloudflare",
+    "domain": "cloudflare.com",
+    "sha256": "74a2a748e1c2134944e6e87b3692fef10b83cae5beba27f02f2d71e7132e695e"
+  },
+  "65": {
+    "path": "assets/logos/65.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/supabase",
+    "domain": "supabase.com",
+    "sha256": "2249d6323b090ffc07499510919d98210f6a94456ebdc9554d4faaf19af5be53"
+  },
+  "66": {
+    "path": "assets/logos/66.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/neo4j",
+    "domain": "neo4j.com",
+    "sha256": "cf5c50cb9fd78b8afa436fe1368dbff4b814041a8f11ffd8e6eb962bf4b676b3"
+  },
+  "67": {
+    "path": "assets/logos/67.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/snowflake",
+    "domain": "snowflake.com",
+    "sha256": "a3b48f3e9e9441d4481f750e9b8543e72433a852ba040bdd65ceb7c06b9dbfea"
+  },
+  "68": {
+    "path": "assets/logos/68.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/mongodb",
+    "domain": "mongodb.com",
+    "sha256": "54fd8f9a3ffb0ff0a7457a0f56e7b5ff28c4c637d8164c741569765355ce3019"
+  },
+  "69": {
+    "path": "assets/logos/69.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/datadog",
+    "domain": "datadoghq.com",
+    "sha256": "bcfefc8f433bbcb9a55bd690f27b59faf803941df0cc51257a3ed022aac72d66"
+  },
+  "70": {
+    "path": "assets/logos/70.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/sentry",
+    "domain": "sentry.io",
+    "sha256": "b6606e3a33170230a4637d76484e30bc39192bf7c34c1183f9afdc76c931bcca"
+  },
+  "71": {
+    "path": "assets/logos/71.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/notion",
+    "domain": "notion.so",
+    "sha256": "23ae59b6190d947866e8832dd8c76b9d5c1aba97fd86224d83ada47f22ec195d"
+  },
+  "72": {
+    "path": "assets/logos/72.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/airtable",
+    "domain": "airtable.com",
+    "sha256": "7352bef5df319ea547be30d4d89a46eee9113df0c7ac3aa55358a6ee73ae089f"
+  },
+  "73": {
+    "path": "assets/logos/73.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/linear",
+    "domain": "linear.app",
+    "sha256": "219bea2ab65fbde25868bfd992a75096c6d438cb4163556b29078adf26bc341d"
+  },
+  "74": {
+    "path": "assets/logos/74.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/jira",
+    "domain": "atlassian.com",
+    "sha256": "b27341d267876f455f3e8b78716d2595b36ef7d59a55979ae42a32fe6b5a619c"
+  },
+  "75": {
+    "path": "assets/logos/75.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/asana",
+    "domain": "asana.com",
+    "sha256": "362d6008aedace77f038781e14ecfce13fc0aa162cce5b296684f3237c06ad4a"
+  },
+  "76": {
+    "path": "assets/logos/76.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/monday",
+    "domain": "monday.com",
+    "sha256": "d60798bd663c08dd107828e06868cff9aa4b719e6244767a5a40c179398816d0"
+  },
+  "77": {
+    "path": "assets/logos/77.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/clickup",
+    "domain": "clickup.com",
+    "sha256": "42f85a933faea68aa231c0a4d1ff314d4bd6355b9a8883bf7e06023edfbe5a51"
+  },
+  "78": {
+    "path": "assets/logos/78.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/coda",
+    "domain": "coda.io",
+    "sha256": "b5dd8d28418d7e1e91949d383c9c43d8235949d352b85fb1ea6d71a3b04cedeb"
+  },
+  "79": {
+    "path": "assets/logos/79.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/smartsheet",
+    "domain": "smartsheet.com",
+    "sha256": "38ab65af0f82eccb4d4ed4304fb1a5876807638c2215885eb69a643a4b541009"
+  },
+  "80": {
+    "path": "assets/logos/80.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/harvest",
+    "domain": "getharvest.com",
+    "sha256": "b7dfe8ce5f193561c60b7fa4c2baf3a2b653a1d4caab3d7c6e6ed44da7a7cc50"
+  },
+  "81": {
+    "path": "assets/logos/81.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/stripe",
+    "domain": "stripe.com",
+    "sha256": "e99bd439967979d76c84cec77bdf02917b7a939be586eb1d5fe949a0cdc0ca76"
+  },
+  "82": {
+    "path": "assets/logos/82.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/plaid",
+    "domain": "plaid.com",
+    "sha256": "14b577084a965e6860e4681a702af862bf7d6916727519d927468d0c61963a69"
+  },
+  "83": {
+    "path": "assets/logos/83.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/binance",
+    "domain": "binance.com",
+    "sha256": "aee6149f3ca701b136afccee403bbca53cb49fc51046e9ca6ec9ce13e23425f0"
+  },
+  "84": {
+    "path": "assets/logos/84.svg",
+    "kind": "initials",
+    "source": null,
+    "note": "Initials placeholder; verified vendor logo unavailable."
+  },
+  "85": {
+    "path": "assets/logos/85.png",
+    "kind": "site-icon",
+    "source": "https://www.google.com/s2/favicons?domain=ipayx.ai&sz=128",
+    "domain": "ipayx.ai",
+    "sha256": "41c521da830d2a1e4175b8cbcc84c985648da07ca0c0cf43dbd1dc062376df89"
+  },
+  "86": {
+    "path": "assets/logos/86.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/quickbooks",
+    "domain": "quickbooks.intuit.com",
+    "sha256": "487a384962e391463e09e63675fca1c101d7c556fbce2a41a03f7a367f6147ef"
+  },
+  "87": {
+    "path": "assets/logos/87.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/xero",
+    "domain": "xero.com",
+    "sha256": "442d2f6894d445dc2393b0261f5fde4f0ad4ddf73867c84a79ac08fc87750871"
+  },
+  "88": {
+    "path": "assets/logos/88.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/brex",
+    "domain": "brex.com",
+    "sha256": "a2b748fa788c72a69275553cb1a286e895e981be1cc330834e77da1fd942427c"
+  },
+  "89": {
+    "path": "assets/logos/89.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/ramp",
+    "domain": "ramp.com",
+    "sha256": "8225cabf7b404d9c0da9aefea34b8922fc67833669a8d85aeaf35107864f8f34"
+  },
+  "90": {
+    "path": "assets/logos/90.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/pitchbook",
+    "domain": "pitchbook.com",
+    "sha256": "c9206198ef599b3a2d1797d8ad63c65a8b7d0b7b5d40f8ea82a47b215c1095c7"
+  },
+  "91": {
+    "path": "assets/logos/91.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/notebooklm",
+    "domain": "notebooklm.google.com",
+    "sha256": "1846efcb684871dc7933f91cecd1c7c1798ec1c2d2b2c4a4f97cab3a93ee6af5"
+  },
+  "92": {
+    "path": "assets/logos/92.png",
+    "kind": "site-icon",
+    "source": "https://www.google.com/s2/favicons?domain=otter.ai&sz=128",
+    "domain": "otter.ai",
+    "sha256": "9b8a90ec8dc374954fb4b082a7d2b426d25282ce4850391a0d0c8e0011f76a11"
+  },
+  "93": {
+    "path": "assets/logos/93.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/fathom",
+    "domain": "fathom.video",
+    "sha256": "5cd4fe00b2e7913c020c67d6d2f29ebd3052e2bf09a18d2aed7a2a28733c3bef"
+  },
+  "94": {
+    "path": "assets/logos/94.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/consensus",
+    "domain": "consensus.app",
+    "sha256": "ff9d4cb9b9e369f571d466b5801ae1e53a3eb5968ed7645693b97ddc3ff85f7d"
+  },
+  "95": {
+    "path": "assets/logos/95.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/reducto",
+    "domain": "reducto.ai",
+    "sha256": "0cc4a8828000d616b29835a0c3dba6f24d8dd8a2431ba190241e7b3b97b0121f"
+  },
+  "96": {
+    "path": "assets/logos/96.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/devin",
+    "domain": "devin.ai",
+    "sha256": "530ff23e3f9b3e34accfdcc8fdd51a141d22f6b76371d3479819a77c15634ea9"
+  },
+  "97": {
+    "path": "assets/logos/97.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/higgsfield",
+    "domain": "higgsfield.ai",
+    "sha256": "80a1fd82b460056ca49d4ea1c1b4d3b82517d33477c76651898043270042ca6d"
+  },
+  "98": {
+    "path": "assets/logos/98.png",
+    "kind": "site-icon",
+    "source": "https://www.google.com/s2/favicons?domain=mermaid.js.org&sz=128",
+    "domain": "mermaid.js.org",
+    "sha256": "9536c1308eb747274562af556c0378cd643b0b99ff5cf20855f0683067be4938"
+  },
+  "99": {
+    "path": "assets/logos/99.png",
+    "kind": "site-icon",
+    "source": "https://www.google.com/s2/favicons?domain=transcriptapi.com&sz=128",
+    "domain": "transcriptapi.com",
+    "sha256": "6eb6778196a54472b0ac0962e8609ba96f1d923f218665caf7f8fe9654605bc2"
+  },
+  "100": {
+    "path": "assets/logos/100.svg",
+    "kind": "logo",
+    "source": "https://logos.composio.dev/api/grain",
+    "domain": "grain.com",
+    "sha256": "c084b7cc157c18386dc53bbeffb237b0c469b54dd40d517d1e4f4518e000b3a4"
+  }
+}

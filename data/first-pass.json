@@ -1,0 +1,2408 @@
+[
+  {
+    "id": 1,
+    "name": "Salesforce",
+    "category": "CRM and Sales",
+    "description": "Enterprise CRM for customer records, pipelines and workflows",
+    "auth": [
+      "OAuth2",
+      "session token"
+    ],
+    "access": "self-serve",
+    "accessNote": "Free Developer Edition; production API depends on edition and API Enabled user permission.",
+    "api": "Broad REST, SOAP, Bulk and streaming APIs: records, query, metadata, automation.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "conditional",
+    "blocker": "Production edition and administrator permissions.",
+    "sources": [
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-compatible-editions.html",
+      "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 2,
+    "name": "HubSpot",
+    "category": "CRM and Sales",
+    "description": "CRM and marketing platform for contacts, deals and customer engagement",
+    "auth": [
+      "OAuth2",
+      "private app bearer token",
+      "service key"
+    ],
+    "access": "self-serve",
+    "accessNote": "Developer test accounts/free CRM path; advanced feature scopes depend on subscription and permissions.",
+    "api": "Broad REST APIs: CRM objects, marketing, sales, service, webhooks.",
+    "mcp": "confirmed official remote CRM MCP; separate developer MCP also exists",
+    "verdict": "buildable",
+    "blocker": "Admin/scoped access; public app distribution requirements.",
+    "sources": [
+      "https://developers.hubspot.com/developer-platform-basics",
+      "https://developers.hubspot.com/changelog/service-keys",
+      "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 3,
+    "name": "Pipedrive",
+    "category": "CRM and Sales",
+    "description": "Sales CRM for deals, people and pipeline activities",
+    "auth": [
+      "API token",
+      "OAuth2"
+    ],
+    "access": "trial",
+    "accessNote": "Self-serve 14-day trial; personal API token from app, OAuth required for Marketplace apps.",
+    "api": "Broad documented REST v1/v2 CRM APIs.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "buildable",
+    "blocker": "Paid account after trial; scoped user permissions.",
+    "sources": [
+      "https://www.pipedrive.com/en/general-faq",
+      "https://developers.pipedrive.com/docs/api/v1/Oauth",
+      "https://support.pipedrive.com/en/article/what-is-api"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 4,
+    "name": "Attio",
+    "category": "CRM and Sales",
+    "description": "Flexible CRM with custom records, lists and relationship data",
+    "auth": [
+      "API key",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "API keys on all plans; workspace admin creates scoped tokens. New cross-workspace OAuth apps need publication approval.",
+    "api": "Broad REST API for objects, records, lists, tasks, notes and webhooks.",
+    "mcp": "confirmed official remote MCP with OAuth",
+    "verdict": "buildable",
+    "blocker": "Admin token creation; OAuth publication approval for distribution.",
+    "sources": [
+      "https://attio.com/help/reference/apps/generating-an-api-key",
+      "https://attio.readme.io/reference/using-oauth",
+      "https://mcp.attio.com/mcp"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 5,
+    "name": "Twenty",
+    "category": "CRM and Sales",
+    "description": "Open-source CRM with customizable objects and records",
+    "auth": [
+      "API key",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "Free self-hosted core; managed cloud trial. Workspace credentials generated in settings.",
+    "api": "Schema-generated REST and GraphQL: core records plus metadata APIs.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "buildable",
+    "blocker": "Self-hosting operations or cloud subscription after trial.",
+    "sources": [
+      "https://github.com/twentyhq/twenty/blob/main/packages/twenty-docs/developers/extend/api.mdx",
+      "https://twenty.com/terms",
+      "https://twenty.com/"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 6,
+    "name": "Podio",
+    "category": "CRM and Sales",
+    "description": "Customizable work management and CRM built from apps and items",
+    "auth": [
+      "OAuth2",
+      "app token grant"
+    ],
+    "access": "self-serve",
+    "accessNote": "Official FAQ says full base API access for free and paid accounts; keys in account settings.",
+    "api": "Broad REST surface mirroring frontend: items, apps, organizations, tasks and files.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "buildable",
+    "blocker": "Restricted destructive operations may need elevated client trust.",
+    "sources": [
+      "https://developers.podio.com/index/faq",
+      "https://developers.podio.com/authentication",
+      "https://developers.podio.com/"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 7,
+    "name": "Zoho CRM",
+    "category": "CRM and Sales",
+    "description": "CRM managing leads, accounts, deals and sales automation",
+    "auth": [
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "Free edition advertises API calls; rate limits/features vary by edition and region.",
+    "api": "Broad REST v8: modules, records, bulk operations, metadata and notifications.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "buildable",
+    "blocker": "Edition-specific API credits and scopes.",
+    "sources": [
+      "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+      "https://www.zoho.com/en-us/crm/zohocrm-pricing.html?price=FREE"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 8,
+    "name": "Close",
+    "category": "CRM and Sales",
+    "description": "Sales CRM combining leads, opportunities and calling",
+    "auth": [
+      "API key",
+      "Basic",
+      "OAuth2"
+    ],
+    "access": "trial",
+    "accessNote": "Self-serve 14-day trial; API keys in Settings > Developer.",
+    "api": "Broad REST API: leads, contacts, activities, opportunities, tasks, webhooks.",
+    "mcp": "confirmed official remote MCP supports OAuth and API key",
+    "verdict": "buildable",
+    "blocker": "Paid account after trial and user-level authorization.",
+    "sources": [
+      "https://developer.close.com/api/overview",
+      "https://developer.close.com/api/overview/api-key-authentication",
+      "https://close.com/pricing",
+      "https://developer.close.com/mcp/"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 9,
+    "name": "Copper",
+    "category": "CRM and Sales",
+    "description": "CRM focused on relationships and Google Workspace workflows",
+    "auth": [
+      "API key",
+      "OAuth2"
+    ],
+    "access": "trial",
+    "accessNote": "API available on trial, Professional and Business per official support article.",
+    "api": "Broad REST CRM API: people, companies, opportunities, tasks and activities.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "conditional",
+    "blocker": "Production requires API-enabled plan; user token/email headers.",
+    "sources": [
+      "https://www.developer.copper.com/introduction/authentication.html",
+      "https://support.copper.com/en/articles/8823462-api-docs-and-tips"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 10,
+    "name": "DealCloud",
+    "category": "CRM and Sales",
+    "description": "Relationship and deal management for investment and financial firms",
+    "auth": [
+      "OAuth2 client credentials",
+      "API key credential"
+    ],
+    "access": "gated",
+    "accessNote": "Existing organization instance and API-capable user group required; administrator/CSM assistance.",
+    "api": "Documented REST APIs for schema, data, users and files; instance-specific configuration.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "conditional",
+    "blocker": "Organization access and administrator-enabled API permission; free trial not established.",
+    "sources": [
+      "https://api.docs.dealcloud.com/docs/token",
+      "https://api.docs.dealcloud.com/docs/apikeys"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 11,
+    "name": "Zendesk",
+    "category": "Support and Helpdesk",
+    "description": "Customer support suite for tickets, users and knowledge bases",
+    "auth": [
+      "OAuth2",
+      "legacy API token via Basic"
+    ],
+    "access": "trial",
+    "accessNote": "Self-serve 14-day trial; partner-sponsored developer instances require partner path.",
+    "api": "Broad REST ticketing, help center and voice APIs.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "buildable",
+    "blocker": "Use OAuth: new API token creation disabled October 27, 2026; existing API tokens deactivate April 30, 2027.",
+    "sources": [
+      "https://developer.zendesk.com/documentation/authentication/oauth-migration/",
+      "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+      "https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 12,
+    "name": "Intercom",
+    "category": "Support and Helpdesk",
+    "description": "Customer messaging and support platform for conversations and contacts",
+    "auth": [
+      "bearer access token",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "Free development workspace for public-app development; own production workspace is paid.",
+    "api": "Broad REST APIs for contacts, conversations, articles, teams and webhooks.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "buildable",
+    "blocker": "OAuth and review for public integrations; cannot ask customers for private tokens.",
+    "sources": [
+      "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+      "https://developers.intercom.com/docs",
+      "https://developers.intercom.com/docs/build-an-integration/getting-started"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 13,
+    "name": "Freshdesk",
+    "category": "Support and Helpdesk",
+    "description": "Helpdesk for customer tickets and service operations",
+    "auth": [
+      "API key",
+      "Basic"
+    ],
+    "access": "trial",
+    "accessNote": "Trial API access documented with 50 calls/minute limit; key belongs to agent.",
+    "api": "Broad REST v2: tickets, contacts, companies, agents, solutions and automation.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "buildable",
+    "blocker": "Plan rate limits and agent permissions.",
+    "sources": [
+      "https://developers.freshdesk.com/api/"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 14,
+    "name": "Front",
+    "category": "Support and Helpdesk",
+    "description": "Shared inbox and customer communications operations",
+    "auth": [
+      "API token",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "Official getting-started offers developer account; API tokens require admin.",
+    "api": "Broad REST Core API across contacts, conversations, comments and messages.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "buildable",
+    "blocker": "OAuth required for customer-facing partner updates unless exception granted.",
+    "sources": [
+      "https://dev.frontapp.com/me/docs/core-api-getting-started",
+      "https://dev.frontapp.com/me/docs/create-and-revoke-api-tokens",
+      "https://dev.frontapp.com/reference/introduction"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 15,
+    "name": "Pylon",
+    "category": "Support and Helpdesk",
+    "description": "B2B customer support spanning Slack, email and other channels",
+    "auth": [
+      "bearer API token"
+    ],
+    "access": "gated",
+    "accessNote": "Pricing includes API and MCP, with Book a demo onboarding; free self-serve credentials not established.",
+    "api": "Documented REST API: issues, accounts, contacts and organizational data.",
+    "mcp": "confirmed official MCP listed on pricing; tool scope not checked",
+    "verdict": "conditional",
+    "blocker": "Obtain provisioned customer workspace; commercial onboarding.",
+    "sources": [
+      "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+      "https://www.usepylon.com/pricing"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 16,
+    "name": "LiveAgent",
+    "category": "Support and Helpdesk",
+    "description": "Multichannel helpdesk with ticketing, chat and call-center features",
+    "auth": [
+      "API key"
+    ],
+    "access": "trial",
+    "accessNote": "Official docs recommend free trial and admin-panel key generation.",
+    "api": "Documented REST APIs; v3 account reference and public v4 OpenAPI documentation.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "buildable",
+    "blocker": "Version-specific credentials and plan/API limits.",
+    "sources": [
+      "https://support.liveagent.com/567924-Documentation",
+      "https://support.liveagent.com/docs/api/v4/",
+      "https://support.liveagent.com/802463-REST-API"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 17,
+    "name": "Plain",
+    "category": "Support and Helpdesk",
+    "description": "B2B customer support platform with developer-focused integrations",
+    "auth": [
+      "API key",
+      "OAuth2 (MCP)"
+    ],
+    "access": "trial",
+    "accessNote": "Self-serve 7-day trial; machine-user API keys, with workspace permissions.",
+    "api": "Broad GraphQL support API: customers, threads, accounts, events and integrations.",
+    "mcp": "confirmed official remote MCP at mcp.plain.com/mcp, OAuth only",
+    "verdict": "buildable",
+    "blocker": "Paid workspace after trial; hosted MCP requires each user's Plain account.",
+    "sources": [
+      "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49x4oyklwx",
+      "https://help.plain.com/article/pricing",
+      "https://help.plain.com/article/migrating-to-accounts-api"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 18,
+    "name": "Help Scout",
+    "category": "Support and Helpdesk",
+    "description": "Shared inbox and help-center software for customer support",
+    "auth": [
+      "OAuth2",
+      "API key (Docs API)",
+      "Basic (Docs API)"
+    ],
+    "access": "trial",
+    "accessNote": "Paid Inbox API tiers; self-serve Standard/Plus trial available; free plan is not proof of API entitlement.",
+    "api": "REST Inbox API and separate Docs API for knowledge-base content.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "conditional",
+    "blocker": "API permission and plan entitlement; confirm API works during trial.",
+    "sources": [
+      "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+      "https://developer.helpscout.com/docs-api/",
+      "https://docs.helpscout.com/article/1140-mailbox-api",
+      "https://www.helpscout.com/pricing/"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 19,
+    "name": "Gorgias",
+    "category": "Support and Helpdesk",
+    "description": "Ecommerce-focused helpdesk for tickets and customer conversations",
+    "auth": [
+      "API key",
+      "Basic",
+      "OAuth2"
+    ],
+    "access": "unknown",
+    "accessNote": "Admin can create key in existing account; free/trial API entitlement not established in reviewed docs.",
+    "api": "Broad REST API: tickets, customers, messages, integrations and users.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "conditional",
+    "blocker": "Need workspace access; public apps must use OAuth2.",
+    "sources": [
+      "https://developers.gorgias.com/docs/access-tokens-api-keys",
+      "https://developers.gorgias.com/reference/authentication",
+      "https://developers.gorgias.com/reference/requests"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 20,
+    "name": "Gladly",
+    "category": "Support and Helpdesk",
+    "description": "Customer service platform organized around customer conversations",
+    "auth": [
+      "API token",
+      "Basic"
+    ],
+    "access": "gated",
+    "accessNote": "Existing org instance and API User permission granted by administrator; no free self-serve path established.",
+    "api": "Broad documented REST: customers, conversations, tasks, reporting and webhooks; public answers unauthenticated.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "conditional",
+    "blocker": "Customer instance and administrator-enabled API User permission.",
+    "sources": [
+      "https://developer.gladly.com/rest/"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 21,
+    "name": "Slack",
+    "category": "Communications and Messaging",
+    "description": "Team messaging platform with channels, messages and app workflows",
+    "auth": [
+      "OAuth2",
+      "bot/user bearer token"
+    ],
+    "access": "self-serve",
+    "accessNote": "Create/install workspace app; organization app approval policies may apply.",
+    "api": "Broad Web API, events, interactions and workflow APIs.",
+    "mcp": "confirmed official remote MCP",
+    "verdict": "buildable",
+    "blocker": "Scopes, app installation approval and method-specific rate limits.",
+    "sources": [
+      "https://docs.slack.dev/authentication/",
+      "https://docs.slack.dev/app-management/quickstart-app-settings/",
+      "https://docs.slack.dev/ai/slack-mcp-server/"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 22,
+    "name": "Twilio",
+    "category": "Communications and Messaging",
+    "description": "Programmable communications for messaging, voice and verification",
+    "auth": [
+      "API key",
+      "Basic",
+      "account SID/auth token"
+    ],
+    "access": "trial",
+    "accessNote": "Self-serve trial gives real API access; email/phone verification, recipient/geography restrictions.",
+    "api": "Broad REST product APIs for SMS, voice, Verify and communications.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "buildable",
+    "blocker": "Production usage payment and telecom compliance; trial restrictions.",
+    "sources": [
+      "https://www.twilio.com/docs/usage/requests-to-twilio",
+      "https://www.twilio.com/docs/usage/trials",
+      "https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 23,
+    "name": "Zoho Cliq",
+    "category": "Communications and Messaging",
+    "description": "Team communication and collaboration through channels, bots and messages",
+    "auth": [
+      "OAuth2"
+    ],
+    "access": "unknown",
+    "accessNote": "Self-register OAuth client; API pricing/edition entitlement not established by reviewed auth docs.",
+    "api": "Broad REST: messages, channels, chats, users and bot workflows.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "conditional",
+    "blocker": "Confirm free/trial API entitlement and scopes.",
+    "sources": [
+      "https://www.zoho.com/cliq/help/restapi/v2/introduction/",
+      "https://www.zoho.com/cliq/help/restapi/v3/registerclient/",
+      "https://www.zoho.com/cliq/help/platform/faq.html"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 24,
+    "name": "Lark (Larksuite)",
+    "category": "Communications and Messaging",
+    "description": "Collaboration suite for messaging, documents, calendars and business data",
+    "auth": [
+      "app/tenant access token",
+      "OAuth2 user access token"
+    ],
+    "access": "self-serve",
+    "accessNote": "Create custom app using App ID/Secret; testing available before publishing for supported scopes.",
+    "api": "Broad server REST APIs: messaging, contacts, documents, calendars and Bitable.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "conditional",
+    "blocker": "Tenant installation/administrator approvals; sensitive scope/data permissions.",
+    "sources": [
+      "https://open.larksuite.com/document/home/synchronize-corporate-organizational-structure-to-feishu/obtain-the-application-access-token",
+      "https://open.larksuite.com/document/server-docs/getting-started/overview-of-app-scopes",
+      "https://open.larksuite.com/document/tools-and-resources/api-explorer-guide"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 25,
+    "name": "Pumble",
+    "category": "Communications and Messaging",
+    "description": "Team messaging with channels and direct messages",
+    "auth": [
+      "API key"
+    ],
+    "access": "self-serve",
+    "accessNote": "API addon and key generation available on all plans.",
+    "api": "Documented HTTP API for messages, reactions and workspace communication.",
+    "mcp": "confirmed official MCP described in vendor automation guide",
+    "verdict": "buildable",
+    "blocker": "Install workspace API addon and respect user rate limits.",
+    "sources": [
+      "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/",
+      "https://pumble.com/learn/pumble/ai-automation-guide/"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 26,
+    "name": "Discord",
+    "category": "Communications and Messaging",
+    "description": "Community messaging with servers, channels, voice and bots",
+    "auth": [
+      "bot token",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "Bot accounts created through developer applications page; server permissions required.",
+    "api": "Broad REST/Gateway API for channels, messages, guilds and interactions.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "buildable",
+    "blocker": "Bot privileges and installation; user self-bots prohibited.",
+    "sources": [
+      "https://support.discord.com/hc/en-us/articles/115002192352-Automated-User-Accounts-Self-Bots",
+      "https://support-dev.discord.com/hc/en-us/articles/6470840524311-Why-can-t-I-copy-my-bot-s-token"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 27,
+    "name": "Telegram",
+    "category": "Communications and Messaging",
+    "description": "Messaging network with bot automation",
+    "auth": [
+      "bot token"
+    ],
+    "access": "self-serve",
+    "accessNote": "Create bot using BotFather and receive revocable token; ordinary bot setup free.",
+    "api": "Extensive HTTP Bot API for messages, media, chats, callbacks and webhooks.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "buildable",
+    "blocker": "Bot scope is not arbitrary user-account access; chat access restrictions.",
+    "sources": [
+      "https://core.telegram.org/bots/tutorial",
+      "https://core.telegram.org/bots/features"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 28,
+    "name": "WhatsApp Business",
+    "category": "Communications and Messaging",
+    "description": "Business messaging with customers through the WhatsApp Cloud API",
+    "auth": [
+      "bearer access token",
+      "system user token"
+    ],
+    "access": "self-serve",
+    "accessNote": "Developer registration and Meta app; temporary token/test messaging available; system-user token setup documented.",
+    "api": "Graph API/REST for messages, templates, accounts and webhooks; calling/group features documented.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "conditional",
+    "blocker": "Production business/phone setup, permissions, template rules and possible App Review.",
+    "sources": [
+      "https://developers.facebook.com/documentation/business-messaging/whatsapp/get-started"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 29,
+    "name": "Aircall",
+    "category": "Communications and Messaging",
+    "description": "Cloud business phone system for calls, contacts and team operations",
+    "auth": [
+      "Basic API ID/token",
+      "OAuth2"
+    ],
+    "access": "trial",
+    "accessNote": "7-day trial offered; dashboard verification needed; API auth docs support private integration credentials.",
+    "api": "Documented REST: calls, contacts, numbers, users, teams and webhooks.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "conditional",
+    "blocker": "Confirm trial API entitlement; telecom account verification; OAuth for multi-customer app.",
+    "sources": [
+      "https://developer.aircall.io/docs/authentication",
+      "https://developers.aircall.io/",
+      "https://aircall.zendesk.com/hc/en-gb/articles/15149698584733-Trial-experience-with-Aircall"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 30,
+    "name": "Vonage",
+    "category": "Communications and Messaging",
+    "description": "Communications APIs for messaging, voice, video and identity",
+    "auth": [
+      "API key/secret",
+      "Basic",
+      "JWT"
+    ],
+    "access": "unknown",
+    "accessNote": "Keys/secrets and application keypairs from dashboard; no free/trial entitlement verified in reviewed sources.",
+    "api": "Broad REST communications product APIs with differing auth by product.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "conditional",
+    "blocker": "Choose product-specific auth and confirm trial/production provisioning.",
+    "sources": [
+      "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "https://developer.vonage.com/en/dashboard/control/api-settings",
+      "https://developer.vonage.com/en/messages/technical-details"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 31,
+    "name": "Google Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Advertising platform for campaigns, budgets and performance reporting",
+    "auth": [
+      "OAuth2",
+      "service account"
+    ],
+    "access": "self-serve",
+    "accessNote": "Enable API in Cloud project for Test access; apply for Explorer production access; higher tiers need brand verification.",
+    "api": "Broad REST/gRPC: campaign management, ads, targeting, budgets and GAQL reporting.",
+    "mcp": "confirmed official MCP linked from current onboarding guide",
+    "verdict": "conditional",
+    "blocker": "Production project access approval and OAuth; developer tokens sunset September 9, 2026.",
+    "sources": [
+      "https://developers.google.com/google-ads/api/docs/api-policy/developer-token"
+    ],
+    "evidenceNotes": "Full official page opened: legacy summary conflicts with current body; relied on migration body, not stale summary. No live credential test.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 32,
+    "name": "Meta Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Advertising platform for campaigns across Meta properties",
+    "auth": [
+      "OAuth2 user token",
+      "system user access token"
+    ],
+    "access": "gated",
+    "accessNote": "Developer app/token with ads permissions; own-account testing differs from broad production access.",
+    "api": "Broad Marketing REST/Graph API for campaigns, ads, audiences and insights.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "conditional",
+    "blocker": "Permission review/access tier and business assets; latest tier naming needs direct follow-up.",
+    "sources": [
+      "https://github.com/meta/facebook-python-business-sdk",
+      "https://developers.facebook.com/docs/business-management-apis/system-users/install-apps-and-generate-tokens/",
+      "https://developers.facebook.com/docs/graph-api/overview/rate-limiting/"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 33,
+    "name": "LinkedIn Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Professional audience advertising and marketing analytics",
+    "auth": [
+      "OAuth2"
+    ],
+    "access": "gated",
+    "accessNote": "Advertising API permissions require application approval; member consent is also necessary.",
+    "api": "Broad REST Marketing APIs for campaigns, creatives, audiences and analytics.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "conditional",
+    "blocker": "LinkedIn product access approval and permissions.",
+    "sources": [
+      "https://learn.microsoft.com/en-us/linkedin/shared/authentication/authentication",
+      "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access",
+      "https://learn.microsoft.com/en-us/linkedin/marketing/lms-faq"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 34,
+    "name": "GoHighLevel",
+    "category": "Marketing, Ads, Email and Social",
+    "description": "CRM and marketing automation for agencies and businesses",
+    "auth": [
+      "OAuth2",
+      "private integration token"
+    ],
+    "access": "trial",
+    "accessNote": "Self-serve trial; basic API in lower plans, advanced API in higher tier; private token created in UI.",
+    "api": "Broad REST APIs for contacts, messaging, workflows, calendars, payments and projects.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "conditional",
+    "blocker": "Endpoint-dependent subscription tier and account/location scopes.",
+    "sources": [
+      "https://marketplace.gohighlevel.com/docs/Authorization/authorization_doc/",
+      "https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/index.html",
+      "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api",
+      "https://www.gohighlevel.com/pricing"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 35,
+    "name": "Mailchimp",
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Email marketing for audiences, campaigns and customer automation",
+    "auth": [
+      "API key",
+      "Basic",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "Create own account and key; API scope follows subscription features; OAuth for other accounts.",
+    "api": "Broad REST Marketing API: audiences, campaigns, reporting and automations.",
+    "mcp": "unknown \u2014 not established in reviewed sources",
+    "verdict": "buildable",
+    "blocker": "API keys grant full account access; feature/send limits by plan.",
+    "sources": [
+      "https://mailchimp.com/developer/marketing/api-concepts/authentication/",
+      "https://mailchimp.com/developer/marketing/build/get-started/create-an-account",
+      "https://mailchimp.com/developer/marketing/api-concepts/authentication/api-keys"
+    ],
+    "evidenceNotes": "Official documentation reviewed via search extracts; credential provisioning and live API not tested.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 36,
+    "name": "Klaviyo",
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Customer profiles, email and SMS marketing.",
+    "auth": [
+      "API key",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "Owner/admin/manager creates private keys; public OAuth distribution has additional requirements.",
+    "api": "Broad REST: profiles, lists, events, campaigns.",
+    "mcp": "unknown",
+    "verdict": "buildable",
+    "blocker": "Account role and scopes.",
+    "sources": [
+      "https://developers.klaviyo.com/en/v2026-01-15/docs/authenticate_",
+      "https://developers.klaviyo.com/en/docs/set_up_oauth"
+    ],
+    "evidenceNotes": "Official authentication guide documents keys and OAuth; free entitlement not independently tested.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 37,
+    "name": "systeme.io",
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Funnels, email automation and digital product sales.",
+    "auth": [
+      "API key"
+    ],
+    "access": "self-serve",
+    "accessNote": "Account settings expose Public API keys; official MCP available even on Free plan.",
+    "api": "REST: contacts, tags and custom fields; other resources require endpoint review.",
+    "mcp": "Official hosted MCP; available on all plans",
+    "verdict": "buildable",
+    "blocker": "Confirm endpoint coverage and plan eligibility.",
+    "sources": [
+      "https://help.systeme.io/article/2323-how-to-create-a-public-api-key-on-systeme-io",
+      "https://systeme.io/mcp",
+      "https://help.systeme.io/article/9489-how-to-use-systeme-ios-mcp"
+    ],
+    "evidenceNotes": "Official help documents key generation and contact-management MCP; official MCP page says all plans including Free, although advertised tool breadth exceeds help article.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 38,
+    "name": "Pinterest",
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Visual discovery, pins, boards and advertising.",
+    "auth": [
+      "OAuth2"
+    ],
+    "access": "gated",
+    "accessNote": "Trial access itself requires approval; Standard access adds review/demo requirements.",
+    "api": "Broad REST v5: pins, boards, users, ads and analytics.",
+    "mcp": "unknown",
+    "verdict": "conditional",
+    "blocker": "App access approval.",
+    "sources": [
+      "https://dev.pinterest.com/docs/key-concepts/access-tiers/",
+      "https://dev.pinterest.com/docs/getting-started/"
+    ],
+    "evidenceNotes": "Official docs distinguish approval for Trial and Standard access.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 39,
+    "name": "Threads (Meta)",
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Publish and analyze Threads posts and replies.",
+    "auth": [
+      "OAuth2"
+    ],
+    "access": "gated",
+    "accessNote": "Development testing and production permissions differ; production review must be confirmed.",
+    "api": "REST/Graph API style: publish, media, replies and insights.",
+    "mcp": "unknown",
+    "verdict": "conditional",
+    "blocker": "Production app review and permission approval.",
+    "sources": [
+      "https://www.postman.com/meta/threads/documentation/dht3nzz/threads-api",
+      "https://developers.facebook.com/docs/threads"
+    ],
+    "evidenceNotes": "Meta-maintained Postman documentation confirms authorization code and access tokens; precise current review gate needs direct check.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 40,
+    "name": "SendGrid",
+    "category": "Marketing, Ads, Email and Social",
+    "description": "Transactional email delivery and marketing campaigns.",
+    "auth": [
+      "API key",
+      "Basic"
+    ],
+    "access": "trial",
+    "accessNote": "Official docs offer 60-day trial; account and sender verification apply.",
+    "api": "Broad REST: mail send, templates, contacts, statistics.",
+    "mcp": "unknown",
+    "verdict": "buildable",
+    "blocker": "Sender/account verification; sending becomes paid after trial.",
+    "sources": [
+      "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+      "https://www.twilio.com/docs/sendgrid/ui/account-and-settings/upgrading-your-plan?save_locale=en"
+    ],
+    "evidenceNotes": "Basic uses literal username apikey and API key password; username/password Basic is unsupported.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 41,
+    "name": "Shopify",
+    "category": "Ecommerce",
+    "description": "Merchant storefront, catalog, orders and inventory platform.",
+    "auth": [
+      "OAuth2",
+      "token"
+    ],
+    "access": "self-serve",
+    "accessNote": "Developer/testing setup is separate from merchant production billing and app review.",
+    "api": "Broad GraphQL Admin; REST Admin legacy; Storefront APIs.",
+    "mcp": "Official developer MCP; distinguish docs/schema tools from merchant operations",
+    "verdict": "buildable",
+    "blocker": "Merchant authorization; distribution review; use GraphQL for new work.",
+    "sources": [
+      "https://shopify.dev/docs/apps/build/authentication-authorization",
+      "https://shopify.dev/docs/api/admin-graphql/latest"
+    ],
+    "evidenceNotes": "Official docs confirm installed-app tokens and broad GraphQL surface; developer setup free path requires additional entitlement check.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 42,
+    "name": "WooCommerce",
+    "category": "Ecommerce",
+    "description": "Open-source WordPress commerce platform.",
+    "auth": [
+      "API key",
+      "Basic",
+      "OAuth1"
+    ],
+    "access": "self-serve",
+    "accessNote": "Generate consumer keys in own WordPress/WooCommerce admin; self-hosting costs separate.",
+    "api": "Broad REST v3: products, orders, customers, coupons.",
+    "mcp": "unknown",
+    "verdict": "buildable",
+    "blocker": "Working store/admin access; hosting.",
+    "sources": [
+      "https://developer.woocommerce.com/docs/apis/rest-api/",
+      "https://woocommerce.github.io/woocommerce-rest-api-docs/"
+    ],
+    "evidenceNotes": "Official quickstart demonstrates key generation and Basic credentials.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 43,
+    "name": "BigCommerce",
+    "category": "Ecommerce",
+    "description": "Hosted commerce platform with catalog and order management.",
+    "auth": [
+      "token",
+      "OAuth2"
+    ],
+    "access": "trial",
+    "accessNote": "Official quickstart provides a free trial store for API testing.",
+    "api": "Broad REST Management and GraphQL Storefront.",
+    "mcp": "unknown",
+    "verdict": "buildable",
+    "blocker": "Store authorization and API scopes.",
+    "sources": [
+      "https://docs.bigcommerce.com/developer/docs/overview/quick-start",
+      "https://support.bigcommerce.com/s/article/Store-API-Accounts?language=en_US"
+    ],
+    "evidenceNotes": "Official quickstart explicitly says trial store can test API calls.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 44,
+    "name": "Salesforce Commerce Cloud",
+    "category": "Ecommerce",
+    "description": "Enterprise commerce storefront and merchandising platform.",
+    "auth": [
+      "OAuth2",
+      "token"
+    ],
+    "access": "gated",
+    "accessNote": "Account Manager administrator provisions API client; commercial instance access required.",
+    "api": "Broad REST SCAPI Admin/Shopper and OCAPI.",
+    "mcp": "unknown",
+    "verdict": "conditional",
+    "blocker": "Provisioned Commerce tenant plus Account Manager/admin permissions.",
+    "sources": [
+      "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+      "https://help.salesforce.com/s/articleView?id=cc.b2c_ocapi_client_authentication_and_authorization.htm&language=no&type=5"
+    ],
+    "evidenceNotes": "Official docs distinguish Account Manager Admin API clients from SLAS Shopper clients.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 45,
+    "name": "Magento (Adobe Commerce)",
+    "category": "Ecommerce",
+    "description": "Self-hosted open-source or licensed enterprise commerce.",
+    "auth": [
+      "OAuth1",
+      "OAuth2",
+      "token",
+      "session"
+    ],
+    "access": "self-serve",
+    "accessNote": "Magento Open Source can be self-hosted; Adobe Commerce SaaS requires license.",
+    "api": "Broad REST and GraphQL; SaaS REST subset differs.",
+    "mcp": "unknown",
+    "verdict": "buildable",
+    "blocker": "Deployment edition determines auth; SaaS license and IMS setup.",
+    "sources": [
+      "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+      "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+      "https://developer.adobe.com/commerce/webapi/rest/"
+    ],
+    "evidenceNotes": "Open-source/PaaS supports OAuth1 and tokens; SaaS uses IMS OAuth2, not traditional integration tokens.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 46,
+    "name": "Squarespace",
+    "category": "Ecommerce",
+    "description": "Website builder with commerce inventory and order APIs.",
+    "auth": [
+      "API key",
+      "OAuth2"
+    ],
+    "access": "paid",
+    "accessNote": "Custom Commerce API key access depends on paid plan; Extensions require OAuth.",
+    "api": "Focused REST: products, inventory, orders, transactions, profiles.",
+    "mcp": "unknown",
+    "verdict": "conditional",
+    "blocker": "Paid eligible commerce plan; OAuth extension onboarding.",
+    "sources": [
+      "https://commerce-apis.squarespace.com/commerce-apis/authentication-and-permissions"
+    ],
+    "evidenceNotes": "Official auth page names Commerce Advanced; newer plan mapping needs confirmation.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 47,
+    "name": "Ecwid",
+    "category": "Ecommerce",
+    "description": "Embeddable online store and commerce management.",
+    "auth": [
+      "token",
+      "OAuth2"
+    ],
+    "access": "paid",
+    "accessNote": "Only paid stores have API access; eligible developers may email for free test-store upgrade.",
+    "api": "Broad REST: products, categories, orders, profile.",
+    "mcp": "unknown",
+    "verdict": "conditional",
+    "blocker": "Paid plan or support-approved development upgrade.",
+    "sources": [
+      "https://docs.ecwid.com/get-started/set-up-your-dev-environment-in-ecwid",
+      "https://docs.ecwid.com/get-started/make-your-first-api-request"
+    ],
+    "evidenceNotes": "Custom app exposes tokens directly; public apps use OAuth2.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 48,
+    "name": "Gumroad",
+    "category": "Ecommerce",
+    "description": "Digital product sales and creator payments.",
+    "auth": [
+      "unknown"
+    ],
+    "access": "unknown",
+    "accessNote": "Credential self-service not established from readable primary evidence.",
+    "api": "Official API page exists but returned no readable body.",
+    "mcp": "unknown",
+    "verdict": "unknown",
+    "blocker": "Read current API docs and confirm credential flow.",
+    "sources": [
+      "https://gumroad.com/api"
+    ],
+    "evidenceNotes": "Primary page opened but no readable lines; do not promote third-party OAuth claims to verified finding.",
+    "confidence": "low",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 49,
+    "name": "Amazon Selling Partner",
+    "category": "Ecommerce",
+    "description": "Seller operations across orders, listings, inventory and reports.",
+    "auth": [
+      "OAuth2"
+    ],
+    "access": "gated",
+    "accessNote": "Sandbox app available while developer profile is under review; production needs registration and authorization.",
+    "api": "Broad REST SP-API: seller/vendor operations; sandbox often mocked.",
+    "mcp": "unknown",
+    "verdict": "conditional",
+    "blocker": "Production developer review, seller authorization and restricted data roles.",
+    "sources": [
+      "https://developer-docs.amazon/sp-api/docs/tutorial-test-selling-partner-api-endpoints",
+      "https://developer-docs.amazon/sp-api/lang-en_US/docs/onboarding-step-6-set-up-the-authorization-workflow"
+    ],
+    "evidenceNotes": "Official docs allow sandbox without seller authorization; production public apps use LWA OAuth2.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 50,
+    "name": "fanbasis",
+    "category": "Ecommerce",
+    "description": "Creator commerce, memberships and payment experiences.",
+    "auth": [
+      "unknown"
+    ],
+    "access": "unknown",
+    "accessNote": "Public self-service API credential route not established.",
+    "api": "Official embedded SDK API reference discovered; broader server API unverified.",
+    "mcp": "unknown",
+    "verdict": "unknown",
+    "blocker": "Vendor documentation/credential confirmation.",
+    "sources": [
+      "https://demo.embedded.fanbasis.io/docs/api-reference",
+      "https://fanbasis.com"
+    ],
+    "evidenceNotes": "Search surfaced first-party embedded SDK reference; SDK reference alone does not establish public REST/auth.",
+    "confidence": "low",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 51,
+    "name": "DataForSEO",
+    "category": "Data, SEO and Scraping",
+    "description": "SERP, keyword, backlink and SEO data APIs.",
+    "auth": [
+      "Basic"
+    ],
+    "access": "trial",
+    "accessNote": "Free account receives limited trial credit; sandbox available.",
+    "api": "Broad REST v3: SERP, keywords, backlinks, on-page and data labs.",
+    "mcp": "Official MCP advertised; detailed server setup not checked",
+    "verdict": "buildable",
+    "blocker": "Credit balance and per-endpoint cost.",
+    "sources": [
+      "https://docs.dataforseo.com/v3/auth/",
+      "https://dataforseo.com/help-center/how-does-your-free-unlimited-trial-work",
+      "https://dataforseo.com/pricing"
+    ],
+    "evidenceNotes": "Official help describes signup credentials and trial; pricing links MCP.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 52,
+    "name": "SE Ranking",
+    "category": "Data, SEO and Scraping",
+    "description": "SEO rank tracking, research, backlinks and audits.",
+    "auth": [
+      "API key"
+    ],
+    "access": "trial",
+    "accessNote": "Official help offers standalone Data API 14-day trial with free credits; paid plans have allowances.",
+    "api": "Broad REST: Data, Project, Local Marketing, SE Visible.",
+    "mcp": "unknown",
+    "verdict": "buildable",
+    "blocker": "Credit/subscription entitlement; legacy plan differences.",
+    "sources": [
+      "https://seranking.com/api/data/getting-started/",
+      "https://help.seranking.com/hc/en-us/articles/22447958135068-Getting-Started-with-SE-Ranking-s-API",
+      "https://seranking.com/api/how-to-get-api/"
+    ],
+    "evidenceNotes": "Current primary docs supersede legacy Business-only assumptions; same key covers Data and Project APIs.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 53,
+    "name": "Ahrefs",
+    "category": "Data, SEO and Scraping",
+    "description": "SEO backlinks, keyword research and site audits.",
+    "auth": [
+      "API key",
+      "OAuth2"
+    ],
+    "access": "paid",
+    "accessNote": "Direct API and MCP available on Lite and higher plans; owner/admin creates key.",
+    "api": "Broad REST v3: Site Explorer, keywords, audit, rank tracking, brand radar.",
+    "mcp": "Official MCP confirmed",
+    "verdict": "conditional",
+    "blocker": "Paid Lite+ subscription and fixed monthly API units.",
+    "sources": [
+      "https://docs.ahrefs.com/en/api/docs/api-keys-creation-and-management",
+      "https://help.ahrefs.com/en/articles/6559232-about-api-v3?trk=article-ssr-frontend-pulse_little-text-block",
+      "https://docs.ahrefs.com/en/api/docs/changelog",
+      "https://docs.ahrefs.com/en/ahrefs-connect/docs/oauth-guide"
+    ],
+    "evidenceNotes": "May 13 2026 changelog opened direct API to Lite+; Enterprise-only would be outdated.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 54,
+    "name": "MrScraper",
+    "category": "Data, SEO and Scraping",
+    "description": "Scraping, browser-rendered extraction and search.",
+    "auth": [
+      "API key"
+    ],
+    "access": "unknown",
+    "accessNote": "Dashboard generates tokens; free/trial API entitlement not verified.",
+    "api": "REST platform, synchronous scraping, results and analytics.",
+    "mcp": "unknown",
+    "verdict": "conditional",
+    "blocker": "Confirm plan entitlement; nonstandard hosts may require support token.",
+    "sources": [
+      "https://docs.mrscraper.com/docs/api/authentication",
+      "https://github.com/mrscraper-com/cli"
+    ],
+    "evidenceNotes": "Official auth docs show x-api-token; analytics has query parameter requirements.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 55,
+    "name": "Apify",
+    "category": "Data, SEO and Scraping",
+    "description": "Hosted Actors for scraping, extraction and browser automation.",
+    "auth": [
+      "token",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "Free account includes monthly platform usage; Actor execution consumes credits.",
+    "api": "Broad REST platform plus thousands of Actor task surfaces.",
+    "mcp": "Official hosted and local MCP",
+    "verdict": "buildable",
+    "blocker": "Actor cost/quality and resource limits.",
+    "sources": [
+      "https://github.com/apify/apify-mcp-server/blob/master/README.md"
+    ],
+    "evidenceNotes": "Official README describes hosted OAuth, local APIFY_TOKEN and free plan.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 56,
+    "name": "Firecrawl",
+    "category": "Data, SEO and Scraping",
+    "description": "Web search, scraping, crawling and structured extraction.",
+    "auth": [
+      "API key",
+      "OAuth2",
+      "none"
+    ],
+    "access": "self-serve",
+    "accessNote": "Keyless limited tools; account or API key unlocks plan tools.",
+    "api": "REST scrape/search/crawl/parse and browser tools.",
+    "mcp": "Official hosted and local MCP",
+    "verdict": "buildable",
+    "blocker": "Rate/credit limits; keyless MCP has narrower tool set.",
+    "sources": [
+      "https://github.com/firecrawl/firecrawl-docs/blob/main/mcp-server.mdx",
+      "https://github.com/firecrawl/firecrawl-docs/blob/main/ai-onboarding.mdx"
+    ],
+    "evidenceNotes": "Current official docs describe OAuth, API key and keyless MCP routes.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 57,
+    "name": "Bright Data",
+    "category": "Data, SEO and Scraping",
+    "description": "Web scraping, search, datasets and browser infrastructure.",
+    "auth": [
+      "API key"
+    ],
+    "access": "self-serve",
+    "accessNote": "Official MCP free tier available without card; larger usage billed.",
+    "api": "Broad REST and scraping/browser services.",
+    "mcp": "Official hosted and local MCP",
+    "verdict": "buildable",
+    "blocker": "Quota and usage billing.",
+    "sources": [
+      "https://github.com/brightdata/brightdata-mcp",
+      "https://brightdata.com/pricing/mcp-server",
+      "https://docs.brightdata.com/ai/mcp-server/overview"
+    ],
+    "evidenceNotes": "Official repo documents free monthly requests and token generation.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 58,
+    "name": "Sherlock",
+    "category": "Data, SEO and Scraping",
+    "description": "Find username presence across public websites.",
+    "auth": [
+      "none"
+    ],
+    "access": "self-serve",
+    "accessNote": "Open-source install; no SaaS credentials required.",
+    "api": "Local CLI/library; not a documented hosted REST/GraphQL service.",
+    "mcp": "unknown",
+    "verdict": "local",
+    "blocker": "Wrap local CLI with subprocess timeout and structured output.",
+    "sources": [
+      "https://github.com/sherlock-project/sherlock",
+      "https://github.com/sherlock-project/sherlockproject.xyz/blob/master/installation.mdx"
+    ],
+    "evidenceNotes": "Official project installation evidence; category differs from account-backed APIs.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 59,
+    "name": "Waterfall.io",
+    "category": "Data, SEO and Scraping",
+    "description": "Aggregated B2B contact and company enrichment.",
+    "auth": [
+      "API key"
+    ],
+    "access": "unknown",
+    "accessNote": "Site advertises onboarding and usage-based API; free self-issued keys not established.",
+    "api": "REST enrichment/prospector, phone, email and job changes.",
+    "mcp": "unknown",
+    "verdict": "conditional",
+    "blocker": "Confirm credential access and pricing; inconsistent example header names.",
+    "sources": [
+      "https://www.waterfall.io/"
+    ],
+    "evidenceNotes": "First-party examples use both x-waterfall-api-key and x-api-key; must resolve before adapter.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 60,
+    "name": "Clay",
+    "category": "Data, SEO and Scraping",
+    "description": "GTM enrichment tables, workflows and lead research.",
+    "auth": [
+      "API key"
+    ],
+    "access": "trial",
+    "accessNote": "14-day trial described; API keys created through API and CLI menu, but exact trial API scope needs check.",
+    "api": "Native API/CLI for tables and enrichment; outbound HTTP feature is not itself inbound API proof.",
+    "mcp": "Official MCP connections mentioned; coverage not checked",
+    "verdict": "conditional",
+    "blocker": "Confirm incoming API operations and plan entitlement.",
+    "sources": [
+      "https://university.clay.com/docs/guide-find-clay-api-key",
+      "https://university.clay.com/docs/workspace-administration-documentation",
+      "https://university.clay.com/docs/ip-access-restrictions"
+    ],
+    "evidenceNotes": "Primary docs expose native keys and mention MCP; avoid confusing outbound HTTP integration with public management API.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 61,
+    "name": "GitHub",
+    "category": "Developer, Infra and Data",
+    "description": "Code hosting, issues, pull requests and automation.",
+    "auth": [
+      "token",
+      "OAuth2",
+      "JWT"
+    ],
+    "access": "self-serve",
+    "accessNote": "Personal tokens and apps can be created; organization approval/SSO may restrict access.",
+    "api": "Very broad REST and GraphQL.",
+    "mcp": "Official MCP exists; auth setup not independently inspected here",
+    "verdict": "buildable",
+    "blocker": "Organization permissions/SSO and endpoint scope.",
+    "sources": [
+      "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+      "https://github.com/github/github-mcp-server"
+    ],
+    "evidenceNotes": "Read official auth page; GitHub App recommended over OAuth app for organization integrations.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 62,
+    "name": "Vercel",
+    "category": "Developer, Infra and Data",
+    "description": "Deploy web applications and manage hosting resources.",
+    "auth": [
+      "token",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "MCP beta on all plans; only approved MCP clients supported.",
+    "api": "Broad REST: projects, deployments, domains, logs.",
+    "mcp": "Official remote MCP with OAuth",
+    "verdict": "buildable",
+    "blocker": "Approved MCP client; plan-specific resource access.",
+    "sources": [
+      "https://vercel.com/docs/agent-resources/vercel-mcp",
+      "https://vercel.com/docs/rest-api"
+    ],
+    "evidenceNotes": "Official MCP docs explicitly state all plans and reviewed clients; REST credential guide needs detailed follow-up.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 63,
+    "name": "Netlify",
+    "category": "Developer, Infra and Data",
+    "description": "Web deployment and hosting platform.",
+    "auth": [
+      "token",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "Personal access token route documented; plan-specific resource entitlements apply.",
+    "api": "Broad REST: sites, deploys and resources.",
+    "mcp": "Official hosted/local MCP",
+    "verdict": "buildable",
+    "blocker": "Account scopes and usage limits.",
+    "sources": [
+      "https://github.com/netlify/netlify-mcp",
+      "https://docs.netlify.com/build/build-with-ai/agent-setup-guides/agent-setup-overview/"
+    ],
+    "evidenceNotes": "Official repo documents PAT workaround and API/CLI tools; free-plan exact limits not tested.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 64,
+    "name": "Cloudflare",
+    "category": "Developer, Infra and Data",
+    "description": "DNS, security, edge compute and storage.",
+    "auth": [
+      "token",
+      "API key",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "Account holders create scoped tokens; paid products still need entitlements.",
+    "api": "Very broad REST: DNS, Workers, R2, security and Zero Trust.",
+    "mcp": "Official remote MCP; OAuth or token",
+    "verdict": "buildable",
+    "blocker": "Product entitlements and scoped permissions.",
+    "sources": [
+      "https://developers.cloudflare.com/fundamentals/api/get-started/",
+      "https://developers.cloudflare.com/agents/model-context-protocol/cloudflare/servers-for-cloudflare/"
+    ],
+    "evidenceNotes": "Official docs prefer API tokens over legacy API keys; MCP offers full API search/execute.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 65,
+    "name": "Supabase",
+    "category": "Developer, Infra and Data",
+    "description": "Hosted Postgres, auth, storage and backend management.",
+    "auth": [
+      "token",
+      "API key",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "Dashboard creates scoped PATs; project/organization role required.",
+    "api": "Management REST plus project PostgREST, Auth and Storage APIs.",
+    "mcp": "Official MCP; PAT management auth confirmed",
+    "verdict": "buildable",
+    "blocker": "Distinguish project data credentials from management PAT.",
+    "sources": [
+      "https://supabase.com/docs/guides/platform/personal-access-tokens",
+      "https://supabase.com/docs/guides/getting-started/mcp"
+    ],
+    "evidenceNotes": "Official PAT docs explicitly connect Management API, CLI and MCP; free quotas not independently checked.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 66,
+    "name": "Neo4j",
+    "category": "Developer, Infra and Data",
+    "description": "Graph database with Cypher querying.",
+    "auth": [
+      "Basic",
+      "token"
+    ],
+    "access": "self-serve",
+    "accessNote": "Community self-hosted route; enterprise/SSO and Aura have separate setup.",
+    "api": "HTTP Query API plus drivers; Cypher supports broad data operations.",
+    "mcp": "Official Neo4j MCP",
+    "verdict": "buildable",
+    "blocker": "Reachable database credentials; bearer SSO requires supported edition.",
+    "sources": [
+      "https://neo4j.com/docs/query-api/current/",
+      "https://neo4j.com/docs/mcp/current/authentication/",
+      "https://neo4j.com/docs/mcp/current/quickstart/"
+    ],
+    "evidenceNotes": "Official MCP auth supports Basic and bearer; Community uses Basic.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 67,
+    "name": "Snowflake",
+    "category": "Developer, Infra and Data",
+    "description": "Cloud warehouse, SQL analytics and governed AI tools.",
+    "auth": [
+      "OAuth2",
+      "JWT",
+      "token",
+      "workload identity"
+    ],
+    "access": "trial",
+    "accessNote": "Trial route available; SQL grants, network policy and compute billing apply.",
+    "api": "REST SQL and resource APIs; Cortex tools.",
+    "mcp": "Official Snowflake-managed MCP",
+    "verdict": "buildable",
+    "blocker": "Admin grants, network policies and compute credits.",
+    "sources": [
+      "https://docs.snowflake.com/en/developer-guide/sql-api/authenticating",
+      "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp",
+      "https://www.snowflake.com/en/developers/guides/getting-started-with-snowflake-mcp-server/"
+    ],
+    "evidenceNotes": "Official docs confirm SQL authentication variants and managed MCP; not just a community wrapper.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 68,
+    "name": "MongoDB Atlas",
+    "category": "Developer, Infra and Data",
+    "description": "Managed MongoDB clusters and database infrastructure.",
+    "auth": [
+      "OAuth2",
+      "API key",
+      "Digest"
+    ],
+    "access": "self-serve",
+    "accessNote": "Organization owner creates service accounts/API keys; free cluster route separate from API permissions.",
+    "api": "Broad Administration REST; database access uses drivers, not Administration API CRUD.",
+    "mcp": "Official MongoDB MCP",
+    "verdict": "buildable",
+    "blocker": "Owner permissions/IP allowlist; separate database credentials.",
+    "sources": [
+      "https://www.mongodb.com/docs/atlas/architecture/current/auth/authentication/",
+      "https://www.mongodb.com/docs/atlas/configure-api-access/?interface=atlas-ui&programmatic-access=service-account",
+      "https://www.mongodb.com/docs/mcp-server/prerequisites/"
+    ],
+    "evidenceNotes": "Official docs prefer OAuth2 service accounts; legacy API keys use Digest, not Basic.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 69,
+    "name": "Datadog",
+    "category": "Developer, Infra and Data",
+    "description": "Infrastructure observability, logs, metrics and incidents.",
+    "auth": [
+      "API key",
+      "application key",
+      "OAuth2"
+    ],
+    "access": "trial",
+    "accessNote": "Account keys self-managed; exact trial duration not checked; MCP site support varies.",
+    "api": "Broad REST: metrics, monitors, logs, dashboards.",
+    "mcp": "Official MCP; OAuth or API+application keys",
+    "verdict": "buildable",
+    "blocker": "Read access usually also requires application key; regional availability.",
+    "sources": [
+      "https://docs.datadoghq.com/api/latest/authentication/",
+      "https://docs.datadoghq.com/mcp_server/setup/",
+      "https://docs.datadoghq.com/mcp_server/"
+    ],
+    "evidenceNotes": "Official auth distinguishes reporting API key from full read application key; trial entitlement needs check.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 70,
+    "name": "Sentry",
+    "category": "Developer, Infra and Data",
+    "description": "Application error tracking, performance and debugging.",
+    "auth": [
+      "token",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "User tokens or internal integrations; also works self-hosted.",
+    "api": "Broad REST: organizations, projects, issues and events.",
+    "mcp": "Official hosted MCP (OAuth) and local CLI",
+    "verdict": "buildable",
+    "blocker": "Scopes and organization integration permissions.",
+    "sources": [
+      "https://docs.sentry.dev/api/auth/",
+      "https://sentry.io/product/mcp/",
+      "https://mcp.sentry.dev/",
+      "https://sentry.io/changelog/sentry-mcp-2026-10-19-to-2026-10-22/"
+    ],
+    "evidenceNotes": "Follow-up search recovered first-party MCP setup and October 2026 changelog after initial product URL failed; hosted OAuth and local CLI confirmed.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 71,
+    "name": "Notion",
+    "category": "Productivity and Project Management",
+    "description": "Pages, databases and knowledge management",
+    "auth": [
+      "token",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "Create an internal connection; workspace/page permissions apply.",
+    "api": "REST: pages, blocks, databases, users, search",
+    "mcp": "confirmed official",
+    "verdict": "buildable",
+    "blocker": "Page sharing and workspace policy",
+    "sources": [
+      "https://developers.notion.com/guides/authorization/overview",
+      "https://www.notion.com/help/notion-mcp"
+    ],
+    "evidenceNotes": "Official authorization docs and MCP help; self-serve internal connection, public OAuth.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 72,
+    "name": "Airtable",
+    "category": "Productivity and Project Management",
+    "description": "Spreadsheet-style relational databases",
+    "auth": [
+      "token",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "PATs and OAuth work on Free; monthly request limits vary.",
+    "api": "REST: records, schema, webhooks",
+    "mcp": "unknown",
+    "verdict": "buildable",
+    "blocker": "Free-plan quota and base permissions",
+    "sources": [
+      "https://airtable.com/developers/web/api/authentication",
+      "https://support.airtable.com/articles/6292134965-getting-started-with-airtable-s-web-api"
+    ],
+    "evidenceNotes": "Legacy API keys are deprecated; PAT and OAuth are current.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 73,
+    "name": "Linear",
+    "category": "Productivity and Project Management",
+    "description": "Issue tracking for product teams",
+    "auth": [
+      "API key",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "Create a personal key or developer OAuth app; organization restrictions apply.",
+    "api": "GraphQL: issues, projects, teams, cycles; webhooks",
+    "mcp": "confirmed official",
+    "verdict": "buildable",
+    "blocker": "Workspace permissions and API limits",
+    "sources": [
+      "https://linear.app/developers/graphql",
+      "https://linear.app/docs/mcp"
+    ],
+    "evidenceNotes": "Official GraphQL and MCP documentation confirm agent path.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 74,
+    "name": "Jira",
+    "category": "Productivity and Project Management",
+    "description": "Issue and project tracking",
+    "auth": [
+      "OAuth2",
+      "Basic"
+    ],
+    "access": "self-serve",
+    "accessNote": "Cloud API token or OAuth app; admin policies may constrain access.",
+    "api": "REST: issues, projects, workflows, users, search",
+    "mcp": "unknown",
+    "verdict": "buildable",
+    "blocker": "Scopes, site permissions and app distribution rules",
+    "sources": [
+      "https://developer.atlassian.com/cloud/jira/platform/security-for-other-integrations/"
+    ],
+    "evidenceNotes": "Basic means email plus API token, not account password; OAuth recommended for integrations.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 75,
+    "name": "Asana",
+    "category": "Productivity and Project Management",
+    "description": "Tasks, projects and work coordination",
+    "auth": [
+      "token",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "PAT from developer console; OAuth for user-facing apps.",
+    "api": "REST: tasks, projects, teams, portfolios; webhooks",
+    "mcp": "confirmed official",
+    "verdict": "buildable",
+    "blocker": "User license permissions; MCP tokens differ from API tokens",
+    "sources": [
+      "https://developers.asana.com/docs/authentication",
+      "https://developers.asana.com/docs/integrating-with-asanas-mcp-server"
+    ],
+    "evidenceNotes": "Official MCP v2 available; v1 deprecated in August 2026.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 76,
+    "name": "Monday.com",
+    "category": "Productivity and Project Management",
+    "description": "Boards and work management",
+    "auth": [
+      "token",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "Free developer account supplies personal API token.",
+    "api": "GraphQL: boards, items, users, updates, automations",
+    "mcp": "unknown",
+    "verdict": "buildable",
+    "blocker": "Complexity budgets and board permissions",
+    "sources": [
+      "https://developer.monday.com/api-reference/docs/authentication",
+      "https://support.monday.com/hc/en-us/articles/360005144659-Does-monday-com-have-an-API"
+    ],
+    "evidenceNotes": "Official docs explicitly offer free developer account.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 77,
+    "name": "ClickUp",
+    "category": "Productivity and Project Management",
+    "description": "Tasks, docs and project management",
+    "auth": [
+      "token",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "Any account can generate personal token; OAuth for others.",
+    "api": "REST: tasks, lists, spaces, goals, time tracking",
+    "mcp": "unknown",
+    "verdict": "buildable",
+    "blocker": "Plan-based rate limits",
+    "sources": [
+      "https://developer.clickup.com/docs/authentication",
+      "https://developer.clickup.com/docs/rate-limits"
+    ],
+    "evidenceNotes": "Personal tokens and OAuth documented; Free Forever rate limits exist.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 78,
+    "name": "Coda",
+    "category": "Productivity and Project Management",
+    "description": "Documents with programmable tables",
+    "auth": [
+      "token"
+    ],
+    "access": "self-serve",
+    "accessNote": "Generate token in account settings; org policy can limit it.",
+    "api": "REST: docs, tables, rows, formulas, controls",
+    "mcp": "confirmed official",
+    "verdict": "buildable",
+    "blocker": "Token content restrictions and maker permissions",
+    "sources": [
+      "https://help.coda.io/hc/en-us/articles/39555941038349-Does-Coda-have-an-API",
+      "https://help.coda.io/hc/en-us/articles/44722661982989-Connect-to-the-Coda-MCP"
+    ],
+    "evidenceNotes": "API reference redirects to Superhuman Docs; official help confirms API tokens and MCP.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 79,
+    "name": "Smartsheet",
+    "category": "Productivity and Project Management",
+    "description": "Spreadsheet-based work management",
+    "auth": [
+      "token"
+    ],
+    "access": "paid",
+    "accessNote": "Business, Enterprise or Advanced Work Management required.",
+    "api": "REST: sheets, rows, cells, reports, users, folders",
+    "mcp": "confirmed official",
+    "verdict": "conditional",
+    "blocker": "Eligible paid plan",
+    "sources": [
+      "https://developers.smartsheet.com/api/smartsheet/introduction",
+      "https://help.smartsheet.com/articles/2482389-generate-API-key"
+    ],
+    "evidenceNotes": "Official API introduction states required plans and advertises official MCP.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 80,
+    "name": "Harvest",
+    "category": "Productivity and Project Management",
+    "description": "Time tracking and invoicing",
+    "auth": [
+      "token",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "PAT or OAuth app via Harvest ID; product account required.",
+    "api": "REST v2: time entries, projects, clients, invoices",
+    "mcp": "unknown",
+    "verdict": "buildable",
+    "blocker": "Account ID header and user permissions",
+    "sources": [
+      "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/"
+    ],
+    "evidenceNotes": "Current v2 uses PAT/OAuth, not legacy v1 Basic; free/trial eligibility not independently tested.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 81,
+    "name": "Stripe",
+    "category": "Finance and Fintech",
+    "description": "Payments and billing infrastructure",
+    "auth": [
+      "API key",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "Sandbox keys available; live payments need business activation.",
+    "api": "REST: payments, customers, billing, payouts, disputes",
+    "mcp": "confirmed official",
+    "verdict": "buildable",
+    "blocker": "Live account activation; restrict financial write actions",
+    "sources": [
+      "https://docs.stripe.com/keys",
+      "https://support.stripe.com/questions/how-do-i-test-my-integration-when-test-mode-isnt-available?locale=en-GB",
+      "https://docs.stripe.com/mcp"
+    ],
+    "evidenceNotes": "Official keys and sandbox documentation plus Stripe MCP: remote server supports OAuth or agent API keys and financial operation tools.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 82,
+    "name": "Plaid",
+    "category": "Finance and Fintech",
+    "description": "Bank account connectivity and financial data",
+    "auth": [
+      "API key",
+      "token"
+    ],
+    "access": "self-serve",
+    "accessNote": "Free mock-data Sandbox; full production paid and approved; limited trial varies by geography.",
+    "api": "REST: Link, accounts, transactions, identity, assets",
+    "mcp": "docs-only official",
+    "verdict": "conditional",
+    "blocker": "Production approval and product eligibility",
+    "sources": [
+      "https://plaid.com/docs/quickstart/",
+      "https://support.plaid.com/hc/en-us/articles/16110110883479-How-are-Sandbox-Production-Trial-plan-and-Limited-Production-different"
+    ],
+    "evidenceNotes": "client_id and secret plus item access_token; docs MCP is not a bank-data toolkit.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 83,
+    "name": "Binance",
+    "category": "Finance and Fintech",
+    "description": "Cryptocurrency exchange and market data",
+    "auth": [
+      "API key",
+      "signed request"
+    ],
+    "access": "self-serve",
+    "accessNote": "Public market data open; account keys and regional/KYC restrictions for trading.",
+    "api": "REST and WebSocket: market data, accounts, trading",
+    "mcp": "unknown",
+    "verdict": "conditional",
+    "blocker": "Regional eligibility, verification and signed trading requests",
+    "sources": [
+      "https://developers.binance.com/en/docs/products/algo/general-info",
+      "https://developers.binance.com/en/docs/products/derivatives-trading-portfolio-margin-pro/general-info"
+    ],
+    "evidenceNotes": "Private routes use API key plus HMAC/RSA/Ed25519 signatures; public routes can be unauthenticated.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 84,
+    "name": "Paygent Connect",
+    "category": "Finance and Fintech",
+    "description": "NMI-powered payments product in assignment",
+    "auth": [
+      "unknown"
+    ],
+    "access": "unknown",
+    "accessNote": "Exact vendor identity and credential path not established.",
+    "api": "Unknown; do not substitute generic NMI API",
+    "mcp": "unknown",
+    "verdict": "unknown",
+    "blocker": "Vendor identity and official API documentation",
+    "sources": [],
+    "evidenceNotes": "Targeted search for Paygent Connect NMI returned no results; needs human/vendor follow-up.",
+    "confidence": "low",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 85,
+    "name": "iPayX",
+    "category": "Finance and Fintech",
+    "description": "FX transaction audit and payment intelligence",
+    "auth": [
+      "API key"
+    ],
+    "access": "unknown",
+    "accessNote": "Official draft API terms describe issued live keys and paid access; self-serve path unconfirmed.",
+    "api": "Audit API; precise endpoint breadth unverified",
+    "mcp": "unknown",
+    "verdict": "conditional",
+    "blocker": "Credential issuance and stable technical documentation",
+    "sources": [
+      "https://www.ipayx.ai/api-terms",
+      "https://ipayx.ai/docs"
+    ],
+    "evidenceNotes": "Draft September 2026 terms mention ipx_live_ API keys; docs availability unresolved. Do not infer free access.",
+    "confidence": "low",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 86,
+    "name": "QuickBooks",
+    "category": "Finance and Fintech",
+    "description": "Small-business accounting",
+    "auth": [
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "Developer app provides sandbox keys; production credential setup separate.",
+    "api": "REST: accounting entities, transactions, reports; webhooks",
+    "mcp": "unknown",
+    "verdict": "conditional",
+    "blocker": "Production requirements and customer company consent",
+    "sources": [
+      "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0"
+    ],
+    "evidenceNotes": "Official OAuth guide distinguishes Development and Production keys.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 87,
+    "name": "Xero",
+    "category": "Finance and Fintech",
+    "description": "Cloud accounting and bookkeeping",
+    "auth": [
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "Free Starter developer tier capped at five connections; paid tiers for scale.",
+    "api": "REST: invoices, contacts, accounts, reports, payroll by region",
+    "mcp": "unknown",
+    "verdict": "buildable",
+    "blocker": "Connection caps, scopes and data-use terms",
+    "sources": [
+      "https://developer.xero.com/faq",
+      "https://developer.xero.com/documentation/guides/oauth2/overview"
+    ],
+    "evidenceNotes": "Current FAQ gives Starter five connections; paid scaling is distinct from initial build.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 88,
+    "name": "Brex",
+    "category": "Finance and Fintech",
+    "description": "Corporate cards, spend and business accounts",
+    "auth": [
+      "token",
+      "OAuth2"
+    ],
+    "access": "gated",
+    "accessNote": "Existing Brex customer user token; partner OAuth for third-party integrations; admin permissions.",
+    "api": "REST: cards, accounts, expenses, payments, transactions",
+    "mcp": "unknown",
+    "verdict": "conditional",
+    "blocker": "Eligible business account and partner/admin authorization",
+    "sources": [
+      "https://developer.brex.com/docs/faq",
+      "https://developer.brex.com/guides/partner_authentication",
+      "https://developer.brex.com/guides/roles_permissions_scopes"
+    ],
+    "evidenceNotes": "User token for own account, OAuth for partner apps; most API scopes need admin.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 89,
+    "name": "Ramp",
+    "category": "Finance and Fintech",
+    "description": "Corporate spend and expense management",
+    "auth": [
+      "OAuth2"
+    ],
+    "access": "gated",
+    "accessNote": "Customer admin creates developer app; sandbox access requested.",
+    "api": "REST: transactions, cards, reimbursements, bills, users",
+    "mcp": "confirmed official",
+    "verdict": "conditional",
+    "blocker": "Customer admin or requested sandbox; partner scope restrictions",
+    "sources": [
+      "https://docs.ramp.com/developer-api/v1/guides/getting-started",
+      "https://docs.ramp.com/developer-api/v1/authorization"
+    ],
+    "evidenceNotes": "OAuth client credentials and authorization code; Basic is token-endpoint client authentication, not primary API auth.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 90,
+    "name": "PitchBook",
+    "category": "Finance and Fintech",
+    "description": "Private-market company and investment intelligence",
+    "auth": [
+      "API key",
+      "token"
+    ],
+    "access": "gated",
+    "accessNote": "Separate API contract and Direct Data team onboarding.",
+    "api": "REST: companies, deals, investors, financial data",
+    "mcp": "unknown",
+    "verdict": "conditional",
+    "blocker": "Standalone API contract and commercial onboarding",
+    "sources": [
+      "https://pitchbook.com/help/PitchBook-api"
+    ],
+    "evidenceNotes": "Official help explicitly separates API offering from Platform subscription.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 91,
+    "name": "NotebookLM",
+    "category": "AI, Research and Media",
+    "description": "Source-grounded notebooks and research summaries",
+    "auth": [
+      "OAuth2"
+    ],
+    "access": "paid",
+    "accessNote": "Enterprise license assigned to user plus Cloud IAM role; consumer app is separate.",
+    "api": "REST preview: notebooks, sharing, sources, audio",
+    "mcp": "unknown",
+    "verdict": "conditional",
+    "blocker": "Enterprise license, IAM and user credential requirements",
+    "sources": [
+      "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks"
+    ],
+    "evidenceNotes": "Official method requires licensed authenticated user; not a generic consumer NotebookLM API.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 92,
+    "name": "Otter AI",
+    "category": "AI, Research and Media",
+    "description": "Meeting transcription and knowledge search",
+    "auth": [
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "Official MCP sign-in using Otter account; exact tier eligibility not confirmed.",
+    "api": "Official MCP: meeting transcript search and analysis; REST not established",
+    "mcp": "confirmed official",
+    "verdict": "conditional",
+    "blocker": "OAuth-capable MCP client; plan/administrator eligibility to confirm",
+    "sources": [
+      "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server"
+    ],
+    "evidenceNotes": "OAuth remains required; official MCP URL mcp.otter.ai/mcp. No invented public API key.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 93,
+    "name": "Fathom",
+    "category": "AI, Research and Media",
+    "description": "AI meeting notes and transcripts",
+    "auth": [
+      "API key",
+      "OAuth2"
+    ],
+    "access": "self-serve",
+    "accessNote": "User-level API key; OAuth app registration for integrations.",
+    "api": "REST: meetings, transcripts, summaries, action items; webhooks",
+    "mcp": "unknown",
+    "verdict": "buildable",
+    "blocker": "60 calls/minute; keys cannot access unshared meetings",
+    "sources": [
+      "https://help.fathom.video/en/articles/8368641"
+    ],
+    "evidenceNotes": "Official public API announcement confirms API keys and OAuth apps; no paid-only API claim.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 94,
+    "name": "Consensus",
+    "category": "AI, Research and Media",
+    "description": "Scientific paper search and research synthesis",
+    "auth": [
+      "API key"
+    ],
+    "access": "self-serve",
+    "accessNote": "API key generated in API & MCP dashboard; free quota, paid additional usage.",
+    "api": "REST: research search and paper retrieval",
+    "mcp": "confirmed official",
+    "verdict": "buildable",
+    "blocker": "Shared monthly API/MCP quota and rate limit",
+    "sources": [
+      "https://help.consensus.app/en/articles/16516328-the-consensus-api"
+    ],
+    "evidenceNotes": "October 2026 official docs supersede assignment hint that OAuth was requested; x-api-key supported.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 95,
+    "name": "Reducto",
+    "category": "AI, Research and Media",
+    "description": "Document parsing and structured extraction",
+    "auth": [
+      "API key"
+    ],
+    "access": "trial",
+    "accessNote": "Standard account includes free usage; paid usage after credits.",
+    "api": "REST: upload, parse, extract, split, classify, edit",
+    "mcp": "confirmed official",
+    "verdict": "buildable",
+    "blocker": "Usage credits and document processing cost",
+    "sources": [
+      "https://docs.reducto.ai/",
+      "https://reducto.ai/pricing",
+      "https://docs.reducto.ai/quickstart"
+    ],
+    "evidenceNotes": "Official API quickstart explicitly offers a free account and self-created API key, Bearer authentication and functional MCP tools; pricing provides free usage credits.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 96,
+    "name": "Devin",
+    "category": "AI, Research and Media",
+    "description": "Autonomous software engineering agent",
+    "auth": [
+      "API key",
+      "token"
+    ],
+    "access": "paid",
+    "accessNote": "Organization service-user API credentials; PAT closed beta; plan eligibility needs check.",
+    "api": "REST v3: sessions, knowledge, playbooks, secrets, organizations",
+    "mcp": "confirmed official",
+    "verdict": "conditional",
+    "blocker": "Organization role and plan; PAT beta gate",
+    "sources": [
+      "https://docs.devin.ai/api-reference/authentication"
+    ],
+    "evidenceNotes": "Current cog_ credentials, legacy apk_ deprecated; docs mention Devin MCP supports cog_ only.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 97,
+    "name": "higgsfield",
+    "category": "AI, Research and Media",
+    "description": "AI image and video creation suite",
+    "auth": [
+      "other"
+    ],
+    "access": "paid",
+    "accessNote": "CLI/skills and MCP use signed-in subscription account, no API key; separate API product exists.",
+    "api": "CLI + agent skills + official MCP; separate developer generation API",
+    "mcp": "confirmed official",
+    "verdict": "conditional",
+    "blocker": "Active paid subscription and generation credits",
+    "sources": [
+      "https://higgsfield.ai/creator-hub/help-center/integrations/how-do-i-access-higgsfield-via-cli",
+      "https://higgsfield.ai/creator-hub/help-center/integrations/how-do-i-connect-higgsfield-to-ai-agent"
+    ],
+    "evidenceNotes": "Official August 2026 help distinguishes CLI/MCP account session from API keys.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 98,
+    "name": "Mermaid CLI",
+    "category": "AI, Research and Media",
+    "description": "Renders text diagrams into SVG, PNG and PDF",
+    "auth": [
+      "none"
+    ],
+    "access": "self-serve",
+    "accessNote": "Open-source local CLI; no cloud credentials.",
+    "api": "Local command mmdc and Node API; not hosted REST",
+    "mcp": "unknown",
+    "verdict": "local",
+    "blocker": "Local Node/Chromium runtime; input validation",
+    "sources": [
+      "https://github.com/mermaid-js/mermaid-cli"
+    ],
+    "evidenceNotes": "Official repository documents install and CLI; wrap as local tool/skill rather than invent SaaS auth.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 99,
+    "name": "YouTube Transcript",
+    "category": "AI, Research and Media",
+    "description": "Third-party API to extract YouTube transcripts",
+    "auth": [
+      "API key"
+    ],
+    "access": "trial",
+    "accessNote": "TranscriptAPI signup includes free credits; credit billing afterward.",
+    "api": "REST: transcripts, search, channels, playlists",
+    "mcp": "confirmed official",
+    "verdict": "buildable",
+    "blocker": "Transcript availability and credit quota",
+    "sources": [
+      "https://transcriptapi.com/docs/",
+      "https://transcriptapi.com/terms"
+    ],
+    "evidenceNotes": "Researches assignment's TranscriptAPI service, not Google's official YouTube API; official docs show MCP.",
+    "confidence": "high",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  },
+  {
+    "id": 100,
+    "name": "Grain",
+    "category": "AI, Research and Media",
+    "description": "Meeting recording, notes and revenue insights",
+    "auth": [
+      "token",
+      "OAuth2"
+    ],
+    "access": "paid",
+    "accessNote": "Personal token self-generated; workspace token admin Business/Enterprise; exact personal tier requires check.",
+    "api": "REST: meetings, transcripts, clips, notes, hooks",
+    "mcp": "confirmed official",
+    "verdict": "conditional",
+    "blocker": "Workspace plan/admin permissions; OAuth app registration",
+    "sources": [
+      "https://developers.grain.com/authentication.html",
+      "https://support.grain.com/en/articles/15297887-export-meetings"
+    ],
+    "evidenceNotes": "PAT, workspace token and OAuth+PKCE; official MCP requires workspace admin enablement.",
+    "confidence": "medium",
+    "checkedAt": "2026-11-23",
+    "verification": "AI documentation review; no human audit or authenticated vendor test"
+  }
+]

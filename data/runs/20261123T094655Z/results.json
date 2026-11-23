@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "name": "Salesforce",
+    "fetched": 0,
+    "sources": 2
+  },
+  {
+    "id": 2,
+    "name": "HubSpot",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 3,
+    "name": "Pipedrive",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 4,
+    "name": "Attio",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 5,
+    "name": "Twenty",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 6,
+    "name": "Podio",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 7,
+    "name": "Zoho CRM",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 8,
+    "name": "Close",
+    "fetched": 4,
+    "sources": 4
+  },
+  {
+    "id": 9,
+    "name": "Copper",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 10,
+    "name": "DealCloud",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 11,
+    "name": "Zendesk",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 12,
+    "name": "Intercom",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 13,
+    "name": "Freshdesk",
+    "fetched": 1,
+    "sources": 1
+  },
+  {
+    "id": 14,
+    "name": "Front",
+    "fetched": 1,
+    "sources": 3
+  },
+  {
+    "id": 15,
+    "name": "Pylon",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 16,
+    "name": "LiveAgent",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 17,
+    "name": "Plain",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 18,
+    "name": "Help Scout",
+    "fetched": 4,
+    "sources": 4
+  },
+  {
+    "id": 19,
+    "name": "Gorgias",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 20,
+    "name": "Gladly",
+    "fetched": 1,
+    "sources": 1
+  },
+  {
+    "id": 21,
+    "name": "Slack",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 22,
+    "name": "Twilio",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 23,
+    "name": "Zoho Cliq",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 24,
+    "name": "Lark (Larksuite)",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 25,
+    "name": "Pumble",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 26,
+    "name": "Discord",
+    "fetched": 0,
+    "sources": 2
+  },
+  {
+    "id": 27,
+    "name": "Telegram",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 28,
+    "name": "WhatsApp Business",
+    "fetched": 1,
+    "sources": 1
+  },
+  {
+    "id": 29,
+    "name": "Aircall",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 30,
+    "name": "Vonage",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 31,
+    "name": "Google Ads",
+    "fetched": 1,
+    "sources": 1
+  },
+  {
+    "id": 32,
+    "name": "Meta Ads",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 33,
+    "name": "LinkedIn Ads",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 34,
+    "name": "GoHighLevel",
+    "fetched": 4,
+    "sources": 4
+  },
+  {
+    "id": 35,
+    "name": "Mailchimp",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 36,
+    "name": "Klaviyo",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 37,
+    "name": "systeme.io",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 38,
+    "name": "Pinterest",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 39,
+    "name": "Threads (Meta)",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 40,
+    "name": "SendGrid",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 41,
+    "name": "Shopify",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 42,
+    "name": "WooCommerce",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 43,
+    "name": "BigCommerce",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 44,
+    "name": "Salesforce Commerce Cloud",
+    "fetched": 1,
+    "sources": 2
+  },
+  {
+    "id": 45,
+    "name": "Magento (Adobe Commerce)",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 46,
+    "name": "Squarespace",
+    "fetched": 1,
+    "sources": 1
+  },
+  {
+    "id": 47,
+    "name": "Ecwid",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 48,
+    "name": "Gumroad",
+    "fetched": 1,
+    "sources": 1
+  },
+  {
+    "id": 49,
+    "name": "Amazon Selling Partner",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 50,
+    "name": "fanbasis",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 51,
+    "name": "DataForSEO",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 52,
+    "name": "SE Ranking",
+    "fetched": 2,
+    "sources": 3
+  },
+  {
+    "id": 53,
+    "name": "Ahrefs",
+    "fetched": 4,
+    "sources": 4
+  },
+  {
+    "id": 54,
+    "name": "MrScraper",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 55,
+    "name": "Apify",
+    "fetched": 1,
+    "sources": 1
+  },
+  {
+    "id": 56,
+    "name": "Firecrawl",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 57,
+    "name": "Bright Data",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 58,
+    "name": "Sherlock",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 59,
+    "name": "Waterfall.io",
+    "fetched": 1,
+    "sources": 1
+  },
+  {
+    "id": 60,
+    "name": "Clay",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 61,
+    "name": "GitHub",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 62,
+    "name": "Vercel",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 63,
+    "name": "Netlify",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 64,
+    "name": "Cloudflare",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 65,
+    "name": "Supabase",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 66,
+    "name": "Neo4j",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 67,
+    "name": "Snowflake",
+    "fetched": 2,
+    "sources": 3
+  },
+  {
+    "id": 68,
+    "name": "MongoDB Atlas",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 69,
+    "name": "Datadog",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 70,
+    "name": "Sentry",
+    "fetched": 3,
+    "sources": 4
+  },
+  {
+    "id": 71,
+    "name": "Notion",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 72,
+    "name": "Airtable",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 73,
+    "name": "Linear",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 74,
+    "name": "Jira",
+    "fetched": 1,
+    "sources": 1
+  },
+  {
+    "id": 75,
+    "name": "Asana",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 76,
+    "name": "Monday.com",
+    "fetched": 1,
+    "sources": 2
+  },
+  {
+    "id": 77,
+    "name": "ClickUp",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 78,
+    "name": "Coda",
+    "fetched": 0,
+    "sources": 2
+  },
+  {
+    "id": 79,
+    "name": "Smartsheet",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 80,
+    "name": "Harvest",
+    "fetched": 1,
+    "sources": 1
+  },
+  {
+    "id": 81,
+    "name": "Stripe",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 82,
+    "name": "Plaid",
+    "fetched": 1,
+    "sources": 2
+  },
+  {
+    "id": 83,
+    "name": "Binance",
+    "fetched": 0,
+    "sources": 2
+  },
+  {
+    "id": 84,
+    "name": "Paygent Connect",
+    "fetched": 0,
+    "sources": 0
+  },
+  {
+    "id": 85,
+    "name": "iPayX",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 86,
+    "name": "QuickBooks",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 87,
+    "name": "Xero",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 88,
+    "name": "Brex",
+    "fetched": 4,
+    "sources": 4
+  },
+  {
+    "id": 89,
+    "name": "Ramp",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 90,
+    "name": "PitchBook",
+    "fetched": 0,
+    "sources": 1
+  },
+  {
+    "id": 91,
+    "name": "NotebookLM",
+    "fetched": 1,
+    "sources": 1
+  },
+  {
+    "id": 92,
+    "name": "Otter AI",
+    "fetched": 0,
+    "sources": 1
+  },
+  {
+    "id": 93,
+    "name": "Fathom",
+    "fetched": 1,
+    "sources": 1
+  },
+  {
+    "id": 94,
+    "name": "Consensus",
+    "fetched": 1,
+    "sources": 1
+  },
+  {
+    "id": 95,
+    "name": "Reducto",
+    "fetched": 3,
+    "sources": 3
+  },
+  {
+    "id": 96,
+    "name": "Devin",
+    "fetched": 1,
+    "sources": 1
+  },
+  {
+    "id": 97,
+    "name": "higgsfield",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 98,
+    "name": "Mermaid CLI",
+    "fetched": 1,
+    "sources": 1
+  },
+  {
+    "id": 99,
+    "name": "YouTube Transcript",
+    "fetched": 2,
+    "sources": 2
+  },
+  {
+    "id": 100,
+    "name": "Grain",
+    "fetched": 2,
+    "sources": 2
+  }
+]

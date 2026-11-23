@@ -1,0 +1,266 @@
+{
+  "date": "2026-11-23",
+  "reviewer": "Independent AI documentation review, not a human",
+  "sampleMethod": "Ten targeted high-risk records; not a random or representative sample",
+  "summary": "Ten selected records were revisited against official documentation: nine retained their assessment (one with an explicit eligibility caveat), and QuickBooks gained a concrete production assessment gate. Research-agent follow-up also recovered official MCP evidence for Sentry and systeme.io. These are documented refinements, not a statistical accuracy estimate. Evidence refresh fetched 208 of 226 source URLs with HTTP 200. Retrieval failures remain in the run log; successful fetches do not establish claim accuracy.",
+  "humanReviewed": 0,
+  "authenticatedTests": 0,
+  "reviews": [
+    {
+      "id": 11,
+      "name": "Zendesk",
+      "outcome": "confirmed",
+      "before": "New API token creation disabled; legacy token retirement scheduled.",
+      "after": "Official migration timeline confirms October 27, 2026 creation block and April 30, 2027 final retirement.",
+      "url": "https://developer.zendesk.com/documentation/authentication/oauth-migration/"
+    },
+    {
+      "id": 31,
+      "name": "Google Ads",
+      "outcome": "confirmed",
+      "before": "Cloud-project access replaces legacy developer tokens.",
+      "after": "Migration body confirms September 9, 2026 sunset; stale page summary still describes old onboarding.",
+      "url": "https://developers.google.com/google-ads/api/docs/api-policy/developer-token"
+    },
+    {
+      "id": 53,
+      "name": "Ahrefs",
+      "outcome": "confirmed",
+      "before": "Paid-plan access with limited free test queries.",
+      "after": "Official introduction confirms eligible paid plans and limited tests; key management requires workspace owner/admin.",
+      "url": "https://docs.ahrefs.com/en/api/docs/introduction"
+    },
+    {
+      "id": 86,
+      "name": "QuickBooks",
+      "outcome": "strengthened",
+      "before": "Sandbox keys self-serve; production setup separate.",
+      "after": "Added explicit production app assessment requirement; sandbox access is not production approval.",
+      "url": "https://help.developer.intuit.com/s/question/0D5TR00001b3Iav0AE/im-building-a-private-readonly-quickbooks-api-app-for-my-own-company-is-there-a-simplified-production-approval-process-for-internaluse-apps-or-must-i-complete-the-full-security-and-compliance-assessment"
+    },
+    {
+      "id": 88,
+      "name": "Brex",
+      "outcome": "confirmed",
+      "before": "Customer token and partner OAuth require account/admin access.",
+      "after": "Brex quickstart explicitly requires a customer account and admin dashboard access.",
+      "url": "https://developer.brex.com/guides/quickstart"
+    },
+    {
+      "id": 89,
+      "name": "Ramp",
+      "outcome": "confirmed",
+      "before": "Customer admin or requested sandbox; OAuth.",
+      "after": "Official overview separates customer, partner, and sandbox paths; authorization guide confirms client-credentials and authorization-code flows.",
+      "url": "https://docs.ramp.com/developer-api/v1/scopes"
+    },
+    {
+      "id": 91,
+      "name": "NotebookLM",
+      "outcome": "confirmed",
+      "before": "Enterprise license and user IAM role required.",
+      "after": "Official notebook-management API requires licensed authenticated user. Consumer product remains separate.",
+      "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks"
+    },
+    {
+      "id": 92,
+      "name": "Otter AI",
+      "outcome": "confirmed with caveat",
+      "before": "OAuth MCP; exact tier eligibility unknown.",
+      "after": "Official page confirms OAuth and custom-client URL; FAQ says no public API key and directs unsupported clients to support. Tier eligibility remains unknown.",
+      "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server"
+    },
+    {
+      "id": 94,
+      "name": "Consensus",
+      "outcome": "confirmed",
+      "before": "Self-serve API key rather than assignment OAuth hint.",
+      "after": "October 2026 official help confirms x-api-key and a shared API/MCP monthly quota.",
+      "url": "https://help.consensus.app/en/articles/16516328-the-consensus-api"
+    },
+    {
+      "id": 97,
+      "name": "higgsfield",
+      "outcome": "confirmed",
+      "before": "Account sign-in and active paid subscription for CLI/MCP.",
+      "after": "Official integration help confirms account authorization without API key and a paid subscription requirement.",
+      "url": "https://higgsfield.ai/creator-hub/help-center/integrations/how-do-i-connect-higgsfield-to-ai-agent"
+    }
+  ],
+  "retrieval": {
+    "urls": 226,
+    "http200": 208,
+    "run": "20261123T094655Z",
+    "note": "HTTP 200 is retrieval only; JS shells and login pages may still be returned."
+  },
+  "composioRefresh": {
+    "appsRequested": 100,
+    "appsCompleted": 93,
+    "urlsRequested": 226,
+    "urlsRetrieved": 207,
+    "toolCallsSucceeded": 72,
+    "sdkUsed": true,
+    "mcpUsed": true,
+    "sdkVersion": "0.34.0",
+    "mcpVersion": "1.30.0",
+    "composioLogIds": [
+      "log_SH0Gv0h6L6cZ",
+      "log_DfIye_XP5sbV",
+      "log_QOnep9XeSV7M",
+      "log_Oauf6-VZiB7G",
+      "log_9QoFLpzmYkYq",
+      "log_OGyKauquRsRp",
+      "log_tHPXGVNb2ZpZ",
+      "log_zHwY-o0uaPpr",
+      "log_RYU4SdBdgwbV",
+      "log_49YRbuwjP5Sj",
+      "log_pRBU9Sfa1wB0",
+      "log_8n1f5p9ElZlB",
+      "log_Jby7hpk3hzrT",
+      "log_Yq8Sb6YWih16",
+      "log_npFFKHl9to6y",
+      "log_jKv0fqsNLsjL",
+      "log_Fex--jSXl0di",
+      "log_SrWzc0A07Izg",
+      "log_FnTQMPak_jrm",
+      "log_o7eQGySOKolj",
+      "log_pZmuk23wShB1",
+      "log_jw_hRJ8euGks",
+      "log_2oCucSe8W1B2",
+      "log_9wKaoHdIslAO",
+      "log_n1e4xE9SnbFp",
+      "log_hCDP94qepYlj",
+      "log_qDKMEkk-PfDJ",
+      "log_51VxkLQEsK1P",
+      "log_oIxC9_fUT-yk",
+      "log_5oFzboOpIs8f",
+      "log_Wf8287TYIP2J",
+      "log_Tu_arj1XrUly",
+      "log_Qx6_qxFh-8tN",
+      "log_6UPNPtBMF2kw",
+      "log_wWEbbU9U22IC",
+      "log_dGfZxWKkk2S7",
+      "log_-IWVBrqQ0Zdg",
+      "log_1XglfnrBt85v",
+      "log_RWpeblVTcv8S",
+      "log_2dUAKxc_fxYm",
+      "log_AuYn88WjMGMk",
+      "log_NGcEvNRAt1u-",
+      "log_akKUkwau24dD",
+      "log_NMPq7w7fz-_Z",
+      "log_ToQlVLRyVcAT",
+      "log_uEmCTaoFsDPz",
+      "log_Y5gHLjEpS27c",
+      "log_lTxxftkZdRFb",
+      "log_R-0zKAo6nehD",
+      "log_xgZe5A6wmydD",
+      "log_oR-QCP67JBUp",
+      "log_0WjY3s6J-CzP",
+      "log_Kg5OiUJo88bB",
+      "log_OBd2VarG72KT",
+      "log_MiROFspSbx5M",
+      "log_AFZU4fucui26",
+      "log_ldSOQfalI940",
+      "log_tpTSwTf5ypgs",
+      "log_AhkezbUFMvfY",
+      "log_RUcrSjCn4GKf",
+      "log_P0pGuExgIuwm",
+      "log_n7g0jLGtK50d",
+      "log_8sEVbgwSB0a_",
+      "log__EqfmQWY6KUf",
+      "log_ShssP_a8JqTv",
+      "log_LULEsSCb7Gj6",
+      "log_R-sC4prRWY-d",
+      "log_vnw8YOjtfq4D",
+      "log_cYG2uSmNYYrP",
+      "log_9ocPeSeW6mAr",
+      "log_LTmDNCaDTxI3",
+      "log_06tFVJC3TCA0"
+    ],
+    "appsWithoutRetrievedEvidence": [
+      {
+        "id": 1,
+        "name": "Salesforce",
+        "reason": "No source returned HTTP 200 in this run"
+      },
+      {
+        "id": 26,
+        "name": "Discord",
+        "reason": "No source returned HTTP 200 in this run"
+      },
+      {
+        "id": 78,
+        "name": "Coda",
+        "reason": "No source returned HTTP 200 in this run"
+      },
+      {
+        "id": 83,
+        "name": "Binance",
+        "reason": "No source returned HTTP 200 in this run"
+      },
+      {
+        "id": 84,
+        "name": "Paygent Connect",
+        "reason": "No source URL recorded"
+      },
+      {
+        "id": 90,
+        "name": "PitchBook",
+        "reason": "No source returned HTTP 200 in this run"
+      },
+      {
+        "id": 92,
+        "name": "Otter AI",
+        "reason": "No source returned HTTP 200 in this run"
+      }
+    ],
+    "meaning": "Real SDK-created session and MCP calls collected documentation. This measures source retrieval, not app functionality or factual accuracy."
+  },
+  "browserQA": {
+    "checkedAt": "2026-11-23T10:17:22+00:00",
+    "browser": "Installed Chrome, controlled with Playwright",
+    "desktopViewport": "1440x1000",
+    "mobileViewport": "390x844",
+    "checks": [
+      "100 records rendered",
+      "Search matched Notion",
+      "Unknown filter returned three records",
+      "Source details expanded",
+      "No page script errors",
+      "No mobile horizontal overflow",
+      "Local button returned HTTP 202 and completed 5/5 apps via Composio",
+      "100-app Composio proof preserved after sample run",
+      "Button re-enabled after completion"
+    ],
+    "result": "passed",
+    "humanAudit": false
+  },
+  "requiredFieldDisplayCheck": {
+    "appsChecked": 100,
+    "requiredFieldsVisible": true,
+    "authenticationMatchesData": true,
+    "sourceListsMatchData": true,
+    "unresolvedSourceVisible": true,
+    "search": "passed",
+    "mobileOverflow": "none",
+    "scriptErrors": []
+  },
+  "visualIdentityCheck": {
+    "records": 100,
+    "localImagesLoaded": 100,
+    "brandLogos": 78,
+    "siteIcons": 21,
+    "initialsFallback": "Paygent Connect",
+    "desktop": "passed",
+    "mobileOverflow": "none",
+    "scriptErrors": []
+  },
+  "sharedStyleCheck": {
+    "sharedNavyStyle": "7 main sections plus navigation, catalog heading and footer",
+    "records": 100,
+    "search": "passed",
+    "desktop": "passed",
+    "mobileOverflow": "none",
+    "scriptErrors": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "startedAt": "2026-11-23T10:29:20+00:00",
+  "appsRequested": 5,
+  "appsCompleted": 5,
+  "urlsRequested": 11,
+  "urlsRetrieved": 11,
+  "toolCallsSucceeded": 3,
+  "sdkUsed": true,
+  "mcpUsed": true,
+  "sdkVersion": "0.34.0",
+  "mcpVersion": "1.30.0",
+  "transport": "Composio SDK session → MCP → COMPOSIO_REMOTE_WORKBENCH",
+  "message": "Composio SDK + MCP collected evidence for 5 of 5 apps. Retrieved 11 of 11 pages. No findings were automatically changed.",
+  "runId": "20261123T102920Z",
+  "claimAccuracy": "Not measured by page retrieval",
+  "composioSessionId": "trs_LoLPBtuue7-r",
+  "composioLogIds": [
+    "log_JJwIhgKFUOx8",
+    "log_6ygmlPegLfrI",
+    "log_LxHSOeOmsHv5"
+  ],
+  "completedAt": "2026-11-23T10:29:31+00:00",
+  "failures": [],
+  "appsWithoutRetrievedEvidence": [],
+  "temporarySessionDeleted": true
+}

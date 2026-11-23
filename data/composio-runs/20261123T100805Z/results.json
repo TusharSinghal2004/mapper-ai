@@ -1,0 +1,74 @@
+{
+  "summary": {
+    "status": "partial",
+    "startedAt": "2026-11-23T10:08:05+00:00",
+    "appsRequested": 5,
+    "appsCompleted": 0,
+    "urlsRequested": 11,
+    "urlsRetrieved": 0,
+    "toolCallsSucceeded": 0,
+    "sdkUsed": true,
+    "mcpUsed": true,
+    "sdkVersion": "0.34.0",
+    "mcpVersion": "1.30.0",
+    "transport": "Composio SDK session → MCP → COMPOSIO_REMOTE_WORKBENCH",
+    "message": "Composio SDK + MCP collected evidence for 0 of 5 apps. Retrieved 0 of 11 pages. No findings were automatically changed.",
+    "runId": "20261123T100805Z",
+    "claimAccuracy": "Not measured by page retrieval",
+    "completedAt": "2026-11-23T10:08:17+00:00",
+    "failures": [
+      {
+        "batch": 1,
+        "errorType": "RuntimeError",
+        "message": "The workbench did not return a valid documentation batch."
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": 11,
+      "name": "Zendesk",
+      "sourcesRequested": 3,
+      "sourcesRetrieved": 0,
+      "reviewLeads": [],
+      "documents": [],
+      "reviewStatus": "New evidence collected; reviewed claims unchanged."
+    },
+    {
+      "id": 31,
+      "name": "Google Ads",
+      "sourcesRequested": 1,
+      "sourcesRetrieved": 0,
+      "reviewLeads": [],
+      "documents": [],
+      "reviewStatus": "New evidence collected; reviewed claims unchanged."
+    },
+    {
+      "id": 53,
+      "name": "Ahrefs",
+      "sourcesRequested": 4,
+      "sourcesRetrieved": 0,
+      "reviewLeads": [],
+      "documents": [],
+      "reviewStatus": "New evidence collected; reviewed claims unchanged."
+    },
+    {
+      "id": 86,
+      "name": "QuickBooks",
+      "sourcesRequested": 2,
+      "sourcesRetrieved": 0,
+      "reviewLeads": [],
+      "documents": [],
+      "reviewStatus": "New evidence collected; reviewed claims unchanged."
+    },
+    {
+      "id": 94,
+      "name": "Consensus",
+      "sourcesRequested": 1,
+      "sourcesRetrieved": 0,
+      "reviewLeads": [],
+      "documents": [],
+      "reviewStatus": "New evidence collected; reviewed claims unchanged."
+    }
+  ]
+}

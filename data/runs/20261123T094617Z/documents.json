@@ -1,0 +1,1358 @@
+{
+  "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-compatible-editions.html": {
+    "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-rest-compatible-editions.html",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html": {
+    "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.hubspot.com/developer-platform-basics": {
+    "url": "https://developers.hubspot.com/developer-platform-basics",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.hubspot.com/changelog/service-keys": {
+    "url": "https://developers.hubspot.com/changelog/service-keys",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server": {
+    "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.pipedrive.com/en/general-faq": {
+    "url": "https://www.pipedrive.com/en/general-faq",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.pipedrive.com/docs/api/v1/Oauth": {
+    "url": "https://developers.pipedrive.com/docs/api/v1/Oauth",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://support.pipedrive.com/en/article/what-is-api": {
+    "url": "https://support.pipedrive.com/en/article/what-is-api",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://attio.com/help/reference/apps/generating-an-api-key": {
+    "url": "https://attio.com/help/reference/apps/generating-an-api-key",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://attio.readme.io/reference/using-oauth": {
+    "url": "https://attio.readme.io/reference/using-oauth",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://mcp.attio.com/mcp": {
+    "url": "https://mcp.attio.com/mcp",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://github.com/twentyhq/twenty/blob/main/packages/twenty-docs/developers/extend/api.mdx": {
+    "url": "https://github.com/twentyhq/twenty/blob/main/packages/twenty-docs/developers/extend/api.mdx",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://twenty.com/terms": {
+    "url": "https://twenty.com/terms",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://twenty.com/": {
+    "url": "https://twenty.com/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.podio.com/index/faq": {
+    "url": "https://developers.podio.com/index/faq",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.podio.com/authentication": {
+    "url": "https://developers.podio.com/authentication",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.podio.com/": {
+    "url": "https://developers.podio.com/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html": {
+    "url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.zoho.com/en-us/crm/zohocrm-pricing.html?price=FREE": {
+    "url": "https://www.zoho.com/en-us/crm/zohocrm-pricing.html?price=FREE",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.close.com/api/overview": {
+    "url": "https://developer.close.com/api/overview",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.close.com/api/overview/api-key-authentication": {
+    "url": "https://developer.close.com/api/overview/api-key-authentication",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://close.com/pricing": {
+    "url": "https://close.com/pricing",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.close.com/mcp/": {
+    "url": "https://developer.close.com/mcp/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.developer.copper.com/introduction/authentication.html": {
+    "url": "https://www.developer.copper.com/introduction/authentication.html",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://support.copper.com/en/articles/8823462-api-docs-and-tips": {
+    "url": "https://support.copper.com/en/articles/8823462-api-docs-and-tips",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://api.docs.dealcloud.com/docs/token": {
+    "url": "https://api.docs.dealcloud.com/docs/token",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://api.docs.dealcloud.com/docs/apikeys": {
+    "url": "https://api.docs.dealcloud.com/docs/apikeys",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.zendesk.com/documentation/authentication/oauth-migration/": {
+    "url": "https://developer.zendesk.com/documentation/authentication/oauth-migration/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.zendesk.com/api-reference/introduction/security-and-auth/": {
+    "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/": {
+    "url": "https://developer.zendesk.com/documentation/api-basics/getting-started/getting-a-trial-or-sponsored-account-for-development/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication": {
+    "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.intercom.com/docs": {
+    "url": "https://developers.intercom.com/docs",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.intercom.com/docs/build-an-integration/getting-started": {
+    "url": "https://developers.intercom.com/docs/build-an-integration/getting-started",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.freshdesk.com/api/": {
+    "url": "https://developers.freshdesk.com/api/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://dev.frontapp.com/me/docs/core-api-getting-started": {
+    "url": "https://dev.frontapp.com/me/docs/core-api-getting-started",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://dev.frontapp.com/me/docs/create-and-revoke-api-tokens": {
+    "url": "https://dev.frontapp.com/me/docs/create-and-revoke-api-tokens",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://dev.frontapp.com/reference/introduction": {
+    "url": "https://dev.frontapp.com/reference/introduction",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.usepylon.com/pylon-docs/developer/api/authentication": {
+    "url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.usepylon.com/pricing": {
+    "url": "https://www.usepylon.com/pricing",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://support.liveagent.com/567924-Documentation": {
+    "url": "https://support.liveagent.com/567924-Documentation",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://support.liveagent.com/docs/api/v4/": {
+    "url": "https://support.liveagent.com/docs/api/v4/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://support.liveagent.com/802463-REST-API": {
+    "url": "https://support.liveagent.com/802463-REST-API",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49x4oyklwx": {
+    "url": "https://help.plain.com/article/does-the-plain-mcp-server-support-api-key-authentication-h7d83qtfdzxo4h49x4oyklwx",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://help.plain.com/article/pricing": {
+    "url": "https://help.plain.com/article/pricing",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://help.plain.com/article/migrating-to-accounts-api": {
+    "url": "https://help.plain.com/article/migrating-to-accounts-api",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.helpscout.com/mailbox-api/overview/authentication/": {
+    "url": "https://developer.helpscout.com/mailbox-api/overview/authentication/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.helpscout.com/docs-api/": {
+    "url": "https://developer.helpscout.com/docs-api/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.helpscout.com/article/1140-mailbox-api": {
+    "url": "https://docs.helpscout.com/article/1140-mailbox-api",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.helpscout.com/pricing/": {
+    "url": "https://www.helpscout.com/pricing/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.gorgias.com/docs/access-tokens-api-keys": {
+    "url": "https://developers.gorgias.com/docs/access-tokens-api-keys",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.gorgias.com/reference/authentication": {
+    "url": "https://developers.gorgias.com/reference/authentication",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.gorgias.com/reference/requests": {
+    "url": "https://developers.gorgias.com/reference/requests",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.gladly.com/rest/": {
+    "url": "https://developer.gladly.com/rest/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.slack.dev/authentication/": {
+    "url": "https://docs.slack.dev/authentication/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.slack.dev/app-management/quickstart-app-settings/": {
+    "url": "https://docs.slack.dev/app-management/quickstart-app-settings/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.slack.dev/ai/slack-mcp-server/": {
+    "url": "https://docs.slack.dev/ai/slack-mcp-server/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.twilio.com/docs/usage/requests-to-twilio": {
+    "url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.twilio.com/docs/usage/trials": {
+    "url": "https://www.twilio.com/docs/usage/trials",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account": {
+    "url": "https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.zoho.com/cliq/help/restapi/v2/introduction/": {
+    "url": "https://www.zoho.com/cliq/help/restapi/v2/introduction/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.zoho.com/cliq/help/restapi/v3/registerclient/": {
+    "url": "https://www.zoho.com/cliq/help/restapi/v3/registerclient/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.zoho.com/cliq/help/platform/faq.html": {
+    "url": "https://www.zoho.com/cliq/help/platform/faq.html",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://open.larksuite.com/document/home/synchronize-corporate-organizational-structure-to-feishu/obtain-the-application-access-token": {
+    "url": "https://open.larksuite.com/document/home/synchronize-corporate-organizational-structure-to-feishu/obtain-the-application-access-token",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://open.larksuite.com/document/server-docs/getting-started/overview-of-app-scopes": {
+    "url": "https://open.larksuite.com/document/server-docs/getting-started/overview-of-app-scopes",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://open.larksuite.com/document/tools-and-resources/api-explorer-guide": {
+    "url": "https://open.larksuite.com/document/tools-and-resources/api-explorer-guide",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/": {
+    "url": "https://pumble.com/help/integrations/automation-workflow-integrations/api-keys-integration/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://pumble.com/learn/pumble/ai-automation-guide/": {
+    "url": "https://pumble.com/learn/pumble/ai-automation-guide/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://support.discord.com/hc/en-us/articles/115002192352-Automated-User-Accounts-Self-Bots": {
+    "url": "https://support.discord.com/hc/en-us/articles/115002192352-Automated-User-Accounts-Self-Bots",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://support-dev.discord.com/hc/en-us/articles/6470840524311-Why-can-t-I-copy-my-bot-s-token": {
+    "url": "https://support-dev.discord.com/hc/en-us/articles/6470840524311-Why-can-t-I-copy-my-bot-s-token",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://core.telegram.org/bots/tutorial": {
+    "url": "https://core.telegram.org/bots/tutorial",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://core.telegram.org/bots/features": {
+    "url": "https://core.telegram.org/bots/features",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.facebook.com/documentation/business-messaging/whatsapp/get-started": {
+    "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/get-started",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.aircall.io/docs/authentication": {
+    "url": "https://developer.aircall.io/docs/authentication",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.aircall.io/": {
+    "url": "https://developers.aircall.io/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://aircall.zendesk.com/hc/en-gb/articles/15149698584733-Trial-experience-with-Aircall": {
+    "url": "https://aircall.zendesk.com/hc/en-gb/articles/15149698584733-Trial-experience-with-Aircall",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.vonage.com/en/getting-started/concepts/authentication": {
+    "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.vonage.com/en/dashboard/control/api-settings": {
+    "url": "https://developer.vonage.com/en/dashboard/control/api-settings",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.vonage.com/en/messages/technical-details": {
+    "url": "https://developer.vonage.com/en/messages/technical-details",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.google.com/google-ads/api/docs/api-policy/developer-token": {
+    "url": "https://developers.google.com/google-ads/api/docs/api-policy/developer-token",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://github.com/meta/facebook-python-business-sdk": {
+    "url": "https://github.com/meta/facebook-python-business-sdk",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.facebook.com/docs/business-management-apis/system-users/install-apps-and-generate-tokens/": {
+    "url": "https://developers.facebook.com/docs/business-management-apis/system-users/install-apps-and-generate-tokens/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.facebook.com/docs/graph-api/overview/rate-limiting/": {
+    "url": "https://developers.facebook.com/docs/graph-api/overview/rate-limiting/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://learn.microsoft.com/en-us/linkedin/shared/authentication/authentication": {
+    "url": "https://learn.microsoft.com/en-us/linkedin/shared/authentication/authentication",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access": {
+    "url": "https://learn.microsoft.com/en-us/linkedin/marketing/increasing-access",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://learn.microsoft.com/en-us/linkedin/marketing/lms-faq": {
+    "url": "https://learn.microsoft.com/en-us/linkedin/marketing/lms-faq",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://marketplace.gohighlevel.com/docs/Authorization/authorization_doc/": {
+    "url": "https://marketplace.gohighlevel.com/docs/Authorization/authorization_doc/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/index.html": {
+    "url": "https://marketplace.gohighlevel.com/docs/Authorization/PrivateIntegrationsToken/index.html",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api": {
+    "url": "https://help.gohighlevel.com/support/solutions/articles/48001060529-highlevel-api",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.gohighlevel.com/pricing": {
+    "url": "https://www.gohighlevel.com/pricing",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://mailchimp.com/developer/marketing/api-concepts/authentication/": {
+    "url": "https://mailchimp.com/developer/marketing/api-concepts/authentication/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://mailchimp.com/developer/marketing/build/get-started/create-an-account": {
+    "url": "https://mailchimp.com/developer/marketing/build/get-started/create-an-account",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://mailchimp.com/developer/marketing/api-concepts/authentication/api-keys": {
+    "url": "https://mailchimp.com/developer/marketing/api-concepts/authentication/api-keys",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.klaviyo.com/en/v2026-01-15/docs/authenticate_": {
+    "url": "https://developers.klaviyo.com/en/v2026-01-15/docs/authenticate_",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.klaviyo.com/en/docs/set_up_oauth": {
+    "url": "https://developers.klaviyo.com/en/docs/set_up_oauth",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://help.systeme.io/article/2323-how-to-create-a-public-api-key-on-systeme-io": {
+    "url": "https://help.systeme.io/article/2323-how-to-create-a-public-api-key-on-systeme-io",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://systeme.io/mcp": {
+    "url": "https://systeme.io/mcp",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://help.systeme.io/article/9489-how-to-use-systeme-ios-mcp": {
+    "url": "https://help.systeme.io/article/9489-how-to-use-systeme-ios-mcp",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://dev.pinterest.com/docs/key-concepts/access-tiers/": {
+    "url": "https://dev.pinterest.com/docs/key-concepts/access-tiers/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://dev.pinterest.com/docs/getting-started/": {
+    "url": "https://dev.pinterest.com/docs/getting-started/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.postman.com/meta/threads/documentation/dht3nzz/threads-api": {
+    "url": "https://www.postman.com/meta/threads/documentation/dht3nzz/threads-api",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.facebook.com/docs/threads": {
+    "url": "https://developers.facebook.com/docs/threads",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication": {
+    "url": "https://www.twilio.com/docs/sendgrid/for-developers/sending-email/authentication",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.twilio.com/docs/sendgrid/ui/account-and-settings/upgrading-your-plan?save_locale=en": {
+    "url": "https://www.twilio.com/docs/sendgrid/ui/account-and-settings/upgrading-your-plan?save_locale=en",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://shopify.dev/docs/apps/build/authentication-authorization": {
+    "url": "https://shopify.dev/docs/apps/build/authentication-authorization",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://shopify.dev/docs/api/admin-graphql/latest": {
+    "url": "https://shopify.dev/docs/api/admin-graphql/latest",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.woocommerce.com/docs/apis/rest-api/": {
+    "url": "https://developer.woocommerce.com/docs/apis/rest-api/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://woocommerce.github.io/woocommerce-rest-api-docs/": {
+    "url": "https://woocommerce.github.io/woocommerce-rest-api-docs/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.bigcommerce.com/developer/docs/overview/quick-start": {
+    "url": "https://docs.bigcommerce.com/developer/docs/overview/quick-start",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://support.bigcommerce.com/s/article/Store-API-Accounts?language=en_US": {
+    "url": "https://support.bigcommerce.com/s/article/Store-API-Accounts?language=en_US",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html": {
+    "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://help.salesforce.com/s/articleView?id=cc.b2c_ocapi_client_authentication_and_authorization.htm&language=no&type=5": {
+    "url": "https://help.salesforce.com/s/articleView?id=cc.b2c_ocapi_client_authentication_and_authorization.htm&language=no&type=5",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.adobe.com/commerce/webapi/get-started/authentication/": {
+    "url": "https://developer.adobe.com/commerce/webapi/get-started/authentication/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.adobe.com/commerce/webapi/rest/authentication/": {
+    "url": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.adobe.com/commerce/webapi/rest/": {
+    "url": "https://developer.adobe.com/commerce/webapi/rest/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://commerce-apis.squarespace.com/commerce-apis/authentication-and-permissions": {
+    "url": "https://commerce-apis.squarespace.com/commerce-apis/authentication-and-permissions",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.ecwid.com/get-started/set-up-your-dev-environment-in-ecwid": {
+    "url": "https://docs.ecwid.com/get-started/set-up-your-dev-environment-in-ecwid",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.ecwid.com/get-started/make-your-first-api-request": {
+    "url": "https://docs.ecwid.com/get-started/make-your-first-api-request",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://gumroad.com/api": {
+    "url": "https://gumroad.com/api",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer-docs.amazon/sp-api/docs/tutorial-test-selling-partner-api-endpoints": {
+    "url": "https://developer-docs.amazon/sp-api/docs/tutorial-test-selling-partner-api-endpoints",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer-docs.amazon/sp-api/lang-en_US/docs/onboarding-step-6-set-up-the-authorization-workflow": {
+    "url": "https://developer-docs.amazon/sp-api/lang-en_US/docs/onboarding-step-6-set-up-the-authorization-workflow",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://demo.embedded.fanbasis.io/docs/api-reference": {
+    "url": "https://demo.embedded.fanbasis.io/docs/api-reference",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://fanbasis.com": {
+    "url": "https://fanbasis.com",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.dataforseo.com/v3/auth/": {
+    "url": "https://docs.dataforseo.com/v3/auth/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://dataforseo.com/help-center/how-does-your-free-unlimited-trial-work": {
+    "url": "https://dataforseo.com/help-center/how-does-your-free-unlimited-trial-work",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://dataforseo.com/pricing": {
+    "url": "https://dataforseo.com/pricing",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://seranking.com/api/data/getting-started/": {
+    "url": "https://seranking.com/api/data/getting-started/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://help.seranking.com/hc/en-us/articles/22447958135068-Getting-Started-with-SE-Ranking-s-API": {
+    "url": "https://help.seranking.com/hc/en-us/articles/22447958135068-Getting-Started-with-SE-Ranking-s-API",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://seranking.com/api/how-to-get-api/": {
+    "url": "https://seranking.com/api/how-to-get-api/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.ahrefs.com/en/api/docs/api-keys-creation-and-management": {
+    "url": "https://docs.ahrefs.com/en/api/docs/api-keys-creation-and-management",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://help.ahrefs.com/en/articles/6559232-about-api-v3?trk=article-ssr-frontend-pulse_little-text-block": {
+    "url": "https://help.ahrefs.com/en/articles/6559232-about-api-v3?trk=article-ssr-frontend-pulse_little-text-block",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.ahrefs.com/en/api/docs/changelog": {
+    "url": "https://docs.ahrefs.com/en/api/docs/changelog",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.ahrefs.com/en/ahrefs-connect/docs/oauth-guide": {
+    "url": "https://docs.ahrefs.com/en/ahrefs-connect/docs/oauth-guide",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.mrscraper.com/docs/api/authentication": {
+    "url": "https://docs.mrscraper.com/docs/api/authentication",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://github.com/mrscraper-com/cli": {
+    "url": "https://github.com/mrscraper-com/cli",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://github.com/apify/apify-mcp-server/blob/master/README.md": {
+    "url": "https://github.com/apify/apify-mcp-server/blob/master/README.md",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://github.com/firecrawl/firecrawl-docs/blob/main/mcp-server.mdx": {
+    "url": "https://github.com/firecrawl/firecrawl-docs/blob/main/mcp-server.mdx",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://github.com/firecrawl/firecrawl-docs/blob/main/ai-onboarding.mdx": {
+    "url": "https://github.com/firecrawl/firecrawl-docs/blob/main/ai-onboarding.mdx",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://github.com/brightdata/brightdata-mcp": {
+    "url": "https://github.com/brightdata/brightdata-mcp",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://brightdata.com/pricing/mcp-server": {
+    "url": "https://brightdata.com/pricing/mcp-server",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.brightdata.com/ai/mcp-server/overview": {
+    "url": "https://docs.brightdata.com/ai/mcp-server/overview",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://github.com/sherlock-project/sherlock": {
+    "url": "https://github.com/sherlock-project/sherlock",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://github.com/sherlock-project/sherlockproject.xyz/blob/master/installation.mdx": {
+    "url": "https://github.com/sherlock-project/sherlockproject.xyz/blob/master/installation.mdx",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.waterfall.io/": {
+    "url": "https://www.waterfall.io/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://university.clay.com/docs/guide-find-clay-api-key": {
+    "url": "https://university.clay.com/docs/guide-find-clay-api-key",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://university.clay.com/docs/workspace-administration-documentation": {
+    "url": "https://university.clay.com/docs/workspace-administration-documentation",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://university.clay.com/docs/ip-access-restrictions": {
+    "url": "https://university.clay.com/docs/ip-access-restrictions",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api": {
+    "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://github.com/github/github-mcp-server": {
+    "url": "https://github.com/github/github-mcp-server",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://vercel.com/docs/agent-resources/vercel-mcp": {
+    "url": "https://vercel.com/docs/agent-resources/vercel-mcp",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://vercel.com/docs/rest-api": {
+    "url": "https://vercel.com/docs/rest-api",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://github.com/netlify/netlify-mcp": {
+    "url": "https://github.com/netlify/netlify-mcp",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.netlify.com/build/build-with-ai/agent-setup-guides/agent-setup-overview/": {
+    "url": "https://docs.netlify.com/build/build-with-ai/agent-setup-guides/agent-setup-overview/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.cloudflare.com/fundamentals/api/get-started/": {
+    "url": "https://developers.cloudflare.com/fundamentals/api/get-started/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.cloudflare.com/agents/model-context-protocol/cloudflare/servers-for-cloudflare/": {
+    "url": "https://developers.cloudflare.com/agents/model-context-protocol/cloudflare/servers-for-cloudflare/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://supabase.com/docs/guides/platform/personal-access-tokens": {
+    "url": "https://supabase.com/docs/guides/platform/personal-access-tokens",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://supabase.com/docs/guides/getting-started/mcp": {
+    "url": "https://supabase.com/docs/guides/getting-started/mcp",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://neo4j.com/docs/query-api/current/": {
+    "url": "https://neo4j.com/docs/query-api/current/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://neo4j.com/docs/mcp/current/authentication/": {
+    "url": "https://neo4j.com/docs/mcp/current/authentication/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://neo4j.com/docs/mcp/current/quickstart/": {
+    "url": "https://neo4j.com/docs/mcp/current/quickstart/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.snowflake.com/en/developer-guide/sql-api/authenticating": {
+    "url": "https://docs.snowflake.com/en/developer-guide/sql-api/authenticating",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp": {
+    "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents-mcp",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.snowflake.com/en/developers/guides/getting-started-with-snowflake-mcp-server/": {
+    "url": "https://www.snowflake.com/en/developers/guides/getting-started-with-snowflake-mcp-server/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.mongodb.com/docs/atlas/architecture/current/auth/authentication/": {
+    "url": "https://www.mongodb.com/docs/atlas/architecture/current/auth/authentication/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.mongodb.com/docs/atlas/configure-api-access/?interface=atlas-ui&programmatic-access=service-account": {
+    "url": "https://www.mongodb.com/docs/atlas/configure-api-access/?interface=atlas-ui&programmatic-access=service-account",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.mongodb.com/docs/mcp-server/prerequisites/": {
+    "url": "https://www.mongodb.com/docs/mcp-server/prerequisites/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.datadoghq.com/api/latest/authentication/": {
+    "url": "https://docs.datadoghq.com/api/latest/authentication/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.datadoghq.com/mcp_server/setup/": {
+    "url": "https://docs.datadoghq.com/mcp_server/setup/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.datadoghq.com/mcp_server/": {
+    "url": "https://docs.datadoghq.com/mcp_server/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.sentry.dev/api/auth/": {
+    "url": "https://docs.sentry.dev/api/auth/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://sentry.io/product/mcp/": {
+    "url": "https://sentry.io/product/mcp/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://mcp.sentry.dev/": {
+    "url": "https://mcp.sentry.dev/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://sentry.io/changelog/sentry-mcp-2026-10-19-to-2026-10-22/": {
+    "url": "https://sentry.io/changelog/sentry-mcp-2026-10-19-to-2026-10-22/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.notion.com/guides/authorization/overview": {
+    "url": "https://developers.notion.com/guides/authorization/overview",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.notion.com/help/notion-mcp": {
+    "url": "https://www.notion.com/help/notion-mcp",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://airtable.com/developers/web/api/authentication": {
+    "url": "https://airtable.com/developers/web/api/authentication",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://support.airtable.com/articles/6292134965-getting-started-with-airtable-s-web-api": {
+    "url": "https://support.airtable.com/articles/6292134965-getting-started-with-airtable-s-web-api",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://linear.app/developers/graphql": {
+    "url": "https://linear.app/developers/graphql",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://linear.app/docs/mcp": {
+    "url": "https://linear.app/docs/mcp",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.atlassian.com/cloud/jira/platform/security-for-other-integrations/": {
+    "url": "https://developer.atlassian.com/cloud/jira/platform/security-for-other-integrations/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.asana.com/docs/authentication": {
+    "url": "https://developers.asana.com/docs/authentication",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.asana.com/docs/integrating-with-asanas-mcp-server": {
+    "url": "https://developers.asana.com/docs/integrating-with-asanas-mcp-server",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.monday.com/api-reference/docs/authentication": {
+    "url": "https://developer.monday.com/api-reference/docs/authentication",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://support.monday.com/hc/en-us/articles/360005144659-Does-monday-com-have-an-API": {
+    "url": "https://support.monday.com/hc/en-us/articles/360005144659-Does-monday-com-have-an-API",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.clickup.com/docs/authentication": {
+    "url": "https://developer.clickup.com/docs/authentication",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.clickup.com/docs/rate-limits": {
+    "url": "https://developer.clickup.com/docs/rate-limits",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://help.coda.io/hc/en-us/articles/39555941038349-Does-Coda-have-an-API": {
+    "url": "https://help.coda.io/hc/en-us/articles/39555941038349-Does-Coda-have-an-API",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://help.coda.io/hc/en-us/articles/44722661982989-Connect-to-the-Coda-MCP": {
+    "url": "https://help.coda.io/hc/en-us/articles/44722661982989-Connect-to-the-Coda-MCP",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.smartsheet.com/api/smartsheet/introduction": {
+    "url": "https://developers.smartsheet.com/api/smartsheet/introduction",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://help.smartsheet.com/articles/2482389-generate-API-key": {
+    "url": "https://help.smartsheet.com/articles/2482389-generate-API-key",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/": {
+    "url": "https://help.getharvest.com/api-v2/authentication-api/authentication/authentication/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.stripe.com/keys": {
+    "url": "https://docs.stripe.com/keys",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://support.stripe.com/questions/how-do-i-test-my-integration-when-test-mode-isnt-available?locale=en-GB": {
+    "url": "https://support.stripe.com/questions/how-do-i-test-my-integration-when-test-mode-isnt-available?locale=en-GB",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.stripe.com/mcp": {
+    "url": "https://docs.stripe.com/mcp",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://plaid.com/docs/quickstart/": {
+    "url": "https://plaid.com/docs/quickstart/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://support.plaid.com/hc/en-us/articles/16110110883479-How-are-Sandbox-Production-Trial-plan-and-Limited-Production-different": {
+    "url": "https://support.plaid.com/hc/en-us/articles/16110110883479-How-are-Sandbox-Production-Trial-plan-and-Limited-Production-different",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.binance.com/en/docs/products/algo/general-info": {
+    "url": "https://developers.binance.com/en/docs/products/algo/general-info",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.binance.com/en/docs/products/derivatives-trading-portfolio-margin-pro/general-info": {
+    "url": "https://developers.binance.com/en/docs/products/derivatives-trading-portfolio-margin-pro/general-info",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://www.ipayx.ai/api-terms": {
+    "url": "https://www.ipayx.ai/api-terms",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://ipayx.ai/docs": {
+    "url": "https://ipayx.ai/docs",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0": {
+    "url": "https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://help.developer.intuit.com/s/question/0D5TR00001b3Iav0AE/im-building-a-private-readonly-quickbooks-api-app-for-my-own-company-is-there-a-simplified-production-approval-process-for-internaluse-apps-or-must-i-complete-the-full-security-and-compliance-assessment": {
+    "url": "https://help.developer.intuit.com/s/question/0D5TR00001b3Iav0AE/im-building-a-private-readonly-quickbooks-api-app-for-my-own-company-is-there-a-simplified-production-approval-process-for-internaluse-apps-or-must-i-complete-the-full-security-and-compliance-assessment",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.xero.com/faq": {
+    "url": "https://developer.xero.com/faq",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.xero.com/documentation/guides/oauth2/overview": {
+    "url": "https://developer.xero.com/documentation/guides/oauth2/overview",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.brex.com/docs/faq": {
+    "url": "https://developer.brex.com/docs/faq",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.brex.com/guides/partner_authentication": {
+    "url": "https://developer.brex.com/guides/partner_authentication",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.brex.com/guides/roles_permissions_scopes": {
+    "url": "https://developer.brex.com/guides/roles_permissions_scopes",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developer.brex.com/guides/quickstart": {
+    "url": "https://developer.brex.com/guides/quickstart",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.ramp.com/developer-api/v1/guides/getting-started": {
+    "url": "https://docs.ramp.com/developer-api/v1/guides/getting-started",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.ramp.com/developer-api/v1/authorization": {
+    "url": "https://docs.ramp.com/developer-api/v1/authorization",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.ramp.com/developer-api/v1/scopes": {
+    "url": "https://docs.ramp.com/developer-api/v1/scopes",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://pitchbook.com/help/PitchBook-api": {
+    "url": "https://pitchbook.com/help/PitchBook-api",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks": {
+    "url": "https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-notebooks",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server": {
+    "url": "https://help.otter.ai/hc/en-us/articles/35287607569687-Otter-MCP-Server",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://help.fathom.video/en/articles/8368641": {
+    "url": "https://help.fathom.video/en/articles/8368641",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://help.consensus.app/en/articles/16516328-the-consensus-api": {
+    "url": "https://help.consensus.app/en/articles/16516328-the-consensus-api",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.reducto.ai/": {
+    "url": "https://docs.reducto.ai/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://reducto.ai/pricing": {
+    "url": "https://reducto.ai/pricing",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.reducto.ai/quickstart": {
+    "url": "https://docs.reducto.ai/quickstart",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://docs.devin.ai/api-reference/authentication": {
+    "url": "https://docs.devin.ai/api-reference/authentication",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://higgsfield.ai/creator-hub/help-center/integrations/how-do-i-access-higgsfield-via-cli": {
+    "url": "https://higgsfield.ai/creator-hub/help-center/integrations/how-do-i-access-higgsfield-via-cli",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://higgsfield.ai/creator-hub/help-center/integrations/how-do-i-connect-higgsfield-to-ai-agent": {
+    "url": "https://higgsfield.ai/creator-hub/help-center/integrations/how-do-i-connect-higgsfield-to-ai-agent",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://github.com/mermaid-js/mermaid-cli": {
+    "url": "https://github.com/mermaid-js/mermaid-cli",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://transcriptapi.com/docs/": {
+    "url": "https://transcriptapi.com/docs/",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://transcriptapi.com/terms": {
+    "url": "https://transcriptapi.com/terms",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://developers.grain.com/authentication.html": {
+    "url": "https://developers.grain.com/authentication.html",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  },
+  "https://support.grain.com/en/articles/15297887-export-meetings": {
+    "url": "https://support.grain.com/en/articles/15297887-export-meetings",
+    "status": null,
+    "text": "",
+    "error": "<urlopen error [Errno 11001] getaddrinfo failed>"
+  }
+}
